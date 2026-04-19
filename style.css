@@ -1,20 +1,34 @@
+:root {
+	--dark0: #0a0a0a;
+	--dark1: #141414;
+	--dark2: #1f1f1f;
+	--dark3: #292929;
+	--border1: rgba(255,255,255,0.1);
+	--border2: rgba(255,255,255,0.2);
+	--border3: rgba(255,255,255,0.5);
+	--text: #ffffff;
+	--warn1: #ff6666;
+	--warn2: #ff4040;
+	--warn3: rgba(255,64,64,0.05);
+}
+
 html, body, main, #grid, aside { height: 100%; }
 
 * {
 	margin: 0;
 	font-family: Lexend, sans-serif;
-	color: #fff;
+	color: var(--text);
 }
 
 *::-webkit-scrollbar { width: 2px; }
 
 *::-webkit-scrollbar-thumb {
-	background: rgba(255,255,255,0.2);
+	background: var(--border2);
 	border-radius: 99px;
 }
 
 body {
-	background-color: #111;
+	background-color: var(--dark1);
 	display: flex;
     flex-direction: column;
 }
@@ -25,8 +39,8 @@ nav {
 	display: flex;
 	gap: 5px 15px;
 	padding: 10px 15px;
-	background: #1a1a1a;
-	border-bottom: 1px solid rgba(255,255,255,0.1);
+	background: var(--dark1);
+	border-bottom: 1px solid var(--border1);
 	flex-wrap: wrap;
 }
 
@@ -45,10 +59,10 @@ nav {
 	top: 35px;
 	left: 0;
 	padding: 5px 10px;
-	background: #1b1b1b;
+	background: var(--dark3);
 	border-radius: 5px;
 	font-size: 0.8rem;
-	border: 1px solid rgba(255,255,255,0.1);
+	border: 1px solid var(--border1);
 	box-shadow: 0 5px 15px rgba(0,0,0,0.5);
 	white-space: nowrap;
 	width: max-content;
@@ -66,9 +80,8 @@ nav {
 #search {
 	flex: 1;
 	min-width: 140px;
-	background: #111;
-	color: white;
-	border: 1px solid rgba(255,255,255,0.1);
+	background: var(--dark0);
+	border: 1px solid var(--border1);
 	border-radius: 5px;
 	padding: 5px 10px;
 	outline: none;
@@ -89,8 +102,8 @@ nav {
 }
 
 .dropdown-header {
-	background: #111;
-	border: 1px solid rgba(255,255,255,0.1);
+	background: var(--dark0);
+	border: 1px solid var(--border1);
 	padding: 5px 10px;
 	border-radius: 5px;
 	cursor: pointer;
@@ -112,8 +125,8 @@ nav {
 	top: calc(100% + 5px);
 	left: 0;
 	width: 140px;
-	background: #1a1a1a;
-	border: 1px solid rgba(255,255,255,0.1);
+	background: var(--dark2);
+	border: 1px solid var(--border1);
 	border-radius: 5px;
 	flex-direction: column;
 	max-height: 200px;
@@ -161,8 +174,8 @@ nav {
 
 #clear {
 	background: transparent;
-	color: #ff5a5a;
-	border: 1px solid rgba(255,90,90,0.5);
+	color: var(--warn1);
+	border: 1px solid var(--warn1);
 	border-radius: 5px;
 	padding: 5px 10px;
 	cursor: pointer;
@@ -170,9 +183,9 @@ nav {
 }
 
 #clear:hover {
-	background: rgba(255,90,90,0.05);
-	border-color: rgba(255,90,90,0.8);
-	color: #ff7a7a;
+	background: var(--warn3);
+	border-color: var(--warn2);
+	color: var(--warn2);
 }
 
 /*main*/
@@ -194,8 +207,8 @@ main {
     align-content: flex-start;
     justify-content: center;
 	background-image:
-		linear-gradient(#1e1e1e 1px, transparent 1px),
-		linear-gradient(90deg, #1e1e1e 1px, transparent 1px);
+		linear-gradient(var(--dark3) 1px, transparent 1px),
+		linear-gradient(90deg, var(--dark3) 1px, transparent 1px);
 	background-size: 40px 40px;
 	background-position: calc(50% - 20px) 15px;
 	box-sizing: border-box;
@@ -218,7 +231,7 @@ main {
 /*aside*/
 
 aside {
-	background: #1e1e1e;
+	background: var(--dark2);
 	padding: 10px;
 	overflow-y: auto;
     min-height: 0;
@@ -228,8 +241,8 @@ aside {
 aside h2, aside h3 { text-align: center; }
 
 .build {
-	background: #181818;
-	border: 1px solid rgba(255,255,255,0.1);
+	background: var(--dark1);
+	border: 1px solid var(--border1);
 	border-radius: 10px;
 	padding: 10px;
 	margin-top: 10px;

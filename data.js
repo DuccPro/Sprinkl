@@ -3865,13 +3865,13 @@ const data = [
 			}
 	]},
 	{
-			name: "GingerBrave Cookie",
+			name: "GingerBrave",
 			icon: "img/card/gingerbrave.png",
 			rarity: "common",
 			role: "charge",
 			position: "front",
 			element: [],
-			alias: ["gbc"],
+			alias: ["gbrave","gb"],
 			builds: [
 			{
 				title: "General",
