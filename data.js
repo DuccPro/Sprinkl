@@ -2897,7 +2897,7 @@ const data = [
 				substats: ["Cooldown","ATK SPD"],
 				requirement: ""
 			},{
-				title: "PVP",
+				title: "Tank",
 				beascuitImgs: ["img/base/defense.png"],
 				lines: ["4 DMG Resist"],
 				toppingsImgs: [
@@ -3774,9 +3774,23 @@ const data = [
 			alias: [],
 			builds: [
 			{
-				title: "General",
+				title: "Taunt",
 				beascuitImgs: ["img/base/defense.png"],
 				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			},{
+				title: "Tank",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 DMG Resist"],
 				toppingsImgs: [
 					"img/tart/almond.png",
 					"img/topping/almond.png",
@@ -3830,10 +3844,10 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/raspberry.png",
-					"img/topping/raspberry.png",
-					"img/topping/raspberry.png",
-					"img/topping/raspberry.png"
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
 				],
 				substats: ["ATK SPD","CRIT%"],
 				requirement: ""
@@ -3849,7 +3863,7 @@ const data = [
 			alias: [],
 			builds: [
 			{
-				title: "General",
+				title: "DPS",
 				beascuitImgs: ["img/base/defense.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3861,6 +3875,20 @@ const data = [
 					"img/topping/raspberry.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "Tank",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
 				requirement: ""
 			}
 	]},
@@ -3874,7 +3902,7 @@ const data = [
 			alias: ["gbrave","gb"],
 			builds: [
 			{
-				title: "General",
+				title: "DPS",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3886,6 +3914,20 @@ const data = [
 					"img/topping/raspberry.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "Tank",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
 				requirement: ""
 			}
 	]}
