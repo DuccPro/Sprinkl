@@ -9,7 +9,7 @@ const data = [
 			alias: [],
 			builds: [
 			{
-				title: "Gwi-Ma",
+				title: "Demon Distress",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -34,7 +34,7 @@ const data = [
 			alias: [],
 			builds: [
 			{
-				title: "Gwi-Ma",
+				title: "Demon Distress",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -59,7 +59,7 @@ const data = [
 			alias: [],
 			builds: [
 			{
-				title: "Gwi-Ma",
+				title: "Demon Distress",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -195,6 +195,20 @@ const data = [
 				toppingsImgs: [
 					"img/tart/candy.png",
 					"img/topping/candy.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["DMG Resist","Cooldown","Amplify Buff"],
+				requirement: ""
+			},{
+				title: "Arena",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
@@ -345,7 +359,7 @@ const data = [
 					"img/topping/peanut.png",
 					"img/topping/peanut.png"
 				],
-				substats: ["DMG Resist","Cooldown","HP","Debuff Resist"],
+				substats: ["DMG Resist","Cooldown","HP","Amplify Buff"],
 				requirement: ""
 			},{
 				title: "PVP",
@@ -359,7 +373,7 @@ const data = [
 					"img/topping/peanut.png",
 					"img/topping/peanut.png"
 				],
-				substats: ["DMG Resist","Cooldown","HP","Amplify Buff","Debuff Resist"],
+				substats: ["DMG Resist","Cooldown","HP","Amplify Buff"],
 				requirement: ""
 			}
 	]},
@@ -389,16 +403,16 @@ const data = [
 			},{
 				title: "PVP",
 				beascuitImgs: ["img/base/magic.png"],
-				lines: ["4 DMG Resist Bypass"],
+				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/raspberry.png",
-					"img/topping/raspberry.png",
-					"img/topping/raspberry.png",
-					"img/topping/raspberry.png",
-					"img/topping/raspberry.png",
-					"img/topping/raspberry.png"
+					"img/tart/chocolate.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
 				],
-				substats: ["DMG Resist","Cooldown","ATK"],
+				substats: ["DMG Resist","Cooldown","CRIT%"],
 				requirement: ""
 			}
 	]},
@@ -663,7 +677,7 @@ const data = [
 			alias: ["meth"],
 			builds: [
 			{
-				title: "MG",
+				title: "Machine-God",
 				beascuitImgs: ["img/base/bomber.png","img/core/bomber04.png"],
 				lines: ["4 Water DMG"],
 				toppingsImgs: [
@@ -1142,7 +1156,7 @@ const data = [
 				substats: ["DMG Resist","Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "RVD",
+				title: "Red Velvet Dragon",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 DMG Resist"],
 				toppingsImgs: [
@@ -1156,7 +1170,7 @@ const data = [
 				substats: ["DMG Resist","Cooldown","HP","Amplify Buff"],
 				requirement: "8% Cooldown"
 			},{
-				title: "LA",
+				title: "Living Abyss",
 				beascuitImgs: ["img/base/bomber.png","img/core/bomber04.png"],
 				lines: ["4 Poison DMG"],
 				toppingsImgs: [
@@ -1259,7 +1273,7 @@ const data = [
 			alias: ["wcc"],
 			builds: [
 			{
-				title: "LA",
+				title: "Living Abyss",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -1298,7 +1312,7 @@ const data = [
 			alias: ["bfc"],
 			builds: [
 			{
-				title: "LA",
+				title: "Living Abyss",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["2 ATK SPD","2 CRIT%"],
 				toppingsImgs: [
@@ -1312,7 +1326,7 @@ const data = [
 				substats: ["CRIT%","ATK"],
 				requirement: "33.9% ATK SPD"
 			},{
-				title: "LA",
+				title: "Living Abyss",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["2 ATK SPD","2 CRIT%"],
 				toppingsImgs: [
@@ -1336,6 +1350,35 @@ const data = [
 			element: ["poison"],
 			alias: ["bsapph","bsc"],
 			builds: [
+			{
+				title: "Red Velvet Dragon",
+				beascuitImgs: ["img/base/support04.png"],
+				lines: ["4 Poison DMG"],
+				toppingsImgs: [
+					"img/tart/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK"],
+				requirement: ""
+			},{
+				title: "Red Velvet Dragon",
+				beascuitImgs: ["img/base/support04.png"],
+				lines: ["4 Poison DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Candy Apple Cookie",
@@ -1695,6 +1738,746 @@ const data = [
 			position: "middle",
 			element: ["earth"],
 			alias: ["gcheese","gcc"],
+			builds: [
+	]},
+	{
+			name: "Frilled Jellyfish Cookie",
+			icon: "img/card/frilled_jellyfish.png",
+			rarity: "epic",
+			role: "support",
+			position: "middle",
+			element: ["water","electricity"],
+			alias: ["fjellyfish","fjc"],
+			builds: [
+	]},
+	{
+			name: "Crimson Coral Cookie",
+			icon: "img/card/crimson_coral.png",
+			rarity: "super epic",
+			role: "defense",
+			position: "front",
+			element: ["water"],
+			alias: ["ccoral","ccc"],
+			builds: [
+	]},
+	{
+			name: "Peppermint Cookie",
+			icon: "img/card/peppermint.png",
+			rarity: "epic",
+			role: "support",
+			position: "rear",
+			element: ["water"],
+			alias: ["pmint","ppmc","pmc"],
+			builds: [
+	]},
+	{
+			name: "Black Lemonade Cookie",
+			icon: "img/card/black_lemonade.png",
+			rarity: "epic",
+			role: "bomber",
+			position: "middle",
+			element: ["electricity"],
+			alias: ["blemonade","blc"],
+			builds: [
+	]},
+	{
+			name: "Rockstar Cookie",
+			icon: "img/card/rockstar.png",
+			rarity: "epic",
+			role: "healing",
+			position: "middle",
+			element: [],
+			alias: ["rstar","rsc"],
+			builds: [
+	]},
+	{
+			name: "Shining Glitter Cookie",
+			icon: "img/card/shining_glitter.png",
+			rarity: "super epic",
+			role: "magic",
+			position: "middle",
+			element: ["electricity"],
+			alias: ["sglitter","sgc"],
+			builds: [
+	]},
+	{
+			name: "Snapdragon Cookie",
+			icon: "img/card/snapdragon.png",
+			rarity: "special",
+			role: "support",
+			position: "rear",
+			element: [],
+			alias: ["sdragon","sdc"],
+			builds: [
+	]},
+	{
+			name: "Tarte Tatin Cookie",
+			icon: "img/card/tarte_tatin.png",
+			rarity: "epic",
+			role: "ranged",
+			position: "rear",
+			element: ["fire"],
+			alias: ["ttatin","ttc","4t"],
+			builds: [
+	]},
+	{
+			name: "Royal Margarine Cookie",
+			icon: "img/card/royal_margarine.png",
+			rarity: "epic",
+			role: "ambush",
+			position: "middle",
+			element: ["poison"],
+			alias: ["rmargarine","rmc"],
+			builds: [
+	]},
+	{
+			name: "Pitaya Dragon Cookie",
+			icon: "img/card/pitaya_dragon.png",
+			rarity: "dragon",
+			role: "charge",
+			position: "front",
+			element: ["fire"],
+			alias: ["pdragon","pdc"],
+			builds: [
+	]},
+	{
+			name: "Kouign-Amann Cookie",
+			icon: "img/card/kouign-amann.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: ["light"],
+			alias: ["kamann","kac"],
+			builds: [
+	]},
+	{
+			name: "Prune Juice Cookie",
+			icon: "img/card/prune_juice.png",
+			rarity: "epic",
+			role: "bomber",
+			position: "middle",
+			element: ["poison"],
+			alias: ["pjuice","pjc"],
+			builds: [
+	]},
+	{
+			name: "Capsaicin Cookie",
+			icon: "img/card/capsaicin.png",
+			rarity: "super epic",
+			role: "charge",
+			position: "front",
+			element: ["fire"],
+			alias: ["caprison cookie"],
+			builds: [
+	]},
+	{
+			name: "Space Doughnut Cookie",
+			icon: "img/card/space_doughnut.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: [],
+			alias: ["space donut","sdoughnut","sdonut","sdc"],
+			builds: [
+	]},
+	{
+			name: "Stardust Cookie",
+			icon: "img/card/stardust.png",
+			rarity: "super epic",
+			role: "ambush",
+			position: "middle",
+			element: [],
+			alias: ["sdust","sdc"],
+			builds: [
+	]},
+	{
+			name: "Blueberry Pie Cookie",
+			icon: "img/card/blueberry_pie.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["electricity"],
+			alias: ["bpie","bpc","bbpc"],
+			builds: [
+	]},
+	{
+			name: "Moonlight Cookie",
+			icon: "img/card/moonlight.png",
+			rarity: "legendary",
+			role: "magic",
+			position: "middle",
+			element: [],
+			alias: ["mlight","mlc"],
+			builds: [
+	]},
+	{
+			name: "Milky Way Cookie",
+			icon: "img/card/milky_way.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: [],
+			alias: ["mway","mwc"],
+			builds: [
+	]},
+	{
+			name: "Prophet Cookie",
+			icon: "img/card/prophet.png",
+			rarity: "epic",
+			role: "support",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Pinecone Cookie",
+			icon: "img/card/pinecone.png",
+			rarity: "epic",
+			role: "bomber",
+			position: "front",
+			element: ["ice"],
+			alias: ["pcc"],
+			builds: [
+	]},
+	{
+			name: "Carol Cookie",
+			icon: "img/card/carol.png",
+			rarity: "epic",
+			role: "healing",
+			position: "rear",
+			element: ["grass"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Sherbet Cookie",
+			icon: "img/card/sherbet.png",
+			rarity: "super epic",
+			role: "ranged",
+			position: "middle",
+			element: ["ice"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Macaron Cookie",
+			icon: "img/card/macaron.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: [],
+			alias: ["macaroon"],
+			builds: [
+	]},
+	{
+			name: "RM Cookie",
+			icon: "img/card/rm.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Jin Cookie",
+			icon: "img/card/jin.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "SUGA Cookie",
+			icon: "img/card/suga.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "j-hope Cookie",
+			icon: "img/card/j-hope.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Jin Cookie",
+			icon: "img/card/jin.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "V Cookie",
+			icon: "img/card/v.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Jung Kook Cookie",
+			icon: "img/card/jung_kook.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: ["jk"],
+			builds: [
+	]},
+	{
+			name: "Schwarzwalder Cookie",
+			icon: "img/card/schwarzwalder.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["steel","chaos"],
+			alias: ["choco werehound brute","charles"],
+			builds: [
+	]},
+	{
+			name: "Candy Diver Cookie",
+			icon: "img/card/candy_diver.png",
+			rarity: "epic",
+			role: "support",
+			position: "rear",
+			element: [],
+			alias: ["cdiver","cdc"],
+			builds: [
+	]},
+	{
+			name: "Captain Caviar Cookie",
+			icon: "img/card/captain_caviar.png",
+			rarity: "epic",
+			role: "bomber",
+			position: "middle",
+			element: ["water"],
+			alias: ["ccaviar","ccc"],
+			builds: [
+	]},
+	{
+			name: "Black Pearl Cookie",
+			icon: "img/card/black_pearl.png",
+			rarity: "legendary",
+			role: "ambush",
+			position: "middle",
+			element: ["water"],
+			alias: ["bpearl","bpc"],
+			builds: [
+	]},
+	{
+			name: "Cream Unicorn Cookie",
+			icon: "img/card/cream_unicorn.png",
+			rarity: "epic",
+			role: "healing",
+			position: "rear",
+			element: ["fire"],
+			alias: ["cunicorn","cuc"],
+			builds: [
+	]},
+	{
+			name: "Financier Cookie",
+			icon: "img/card/financier.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: ["light"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Oyster Cookie",
+			icon: "img/card/oyster.png",
+			rarity: "super epic",
+			role: "support",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Crunchy Chip Cookie",
+			icon: "img/card/crunchy_chip.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["darkness"],
+			alias: ["oreo cookie","cchip","ccc"],
+			builds: [
+	]},
+	{
+			name: "Wildberry Cookie",
+			icon: "img/card/wildberry.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: ["steel"],
+			alias: ["wberry","wbc"],
+			builds: [
+	]},
+	{
+			name: "Clotted Cream Cookie",
+			icon: "img/card/clotted_cream.png",
+			rarity: "super epic",
+			role: "magic",
+			position: "middle",
+			element: ["light"],
+			alias: ["ccream","ccc"],
+			builds: [
+	]},
+	{
+			name: "Cherry Blossom Cookie",
+			icon: "img/card/cherry_blossom.png",
+			rarity: "epic",
+			role: "ambush",
+			position: "rear",
+			element: ["grass"],
+			alias: ["cblossom","cbc"],
+			builds: [
+	]},
+	{
+			name: "Caramel Arrow Cookie",
+			icon: "img/card/caramel_arrow.png",
+			rarity: "epic",
+			role: "ranged",
+			position: "front",
+			element: ["darkness"],
+			alias: ["carrow","cac"],
+			builds: [
+	]},
+	{
+			name: "Dark Cacao Cookie",
+			icon: "img/card/dark_cacao.png",
+			rarity: "ancient",
+			role: "charge",
+			position: "front",
+			element: ["darkness","electricity"],
+			alias: ["dcacao","dcc","dcac"],
+			builds: [
+	]},
+	{
+			name: "Affogato Cookie",
+			icon: "img/card/affogato.png",
+			rarity: "epic",
+			role: "bomber",
+			position: "middle",
+			element: ["poison"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Tea Knight Cookie",
+			icon: "img/card/tea_knight.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["steel"],
+			alias: ["tktc"],
+			builds: [
+	]},
+	{
+			name: "Eclair Cookie",
+			icon: "img/card/eclair.png",
+			rarity: "epic",
+			role: "support",
+			position: "middle",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Cocoa Cookie",
+			icon: "img/card/cocoa.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Frost Queen Cookie",
+			icon: "img/card/frost_queen.png",
+			rarity: "legendary",
+			role: "magic",
+			position: "middle",
+			element: ["ice"],
+			alias: ["elsa cookie","fqueen","fqc"],
+			builds: [
+	]},
+	{
+			name: "Cotton Cookie",
+			icon: "img/card/cotton.png",
+			rarity: "epic",
+			role: "support",
+			position: "rear",
+			element: ["grass"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Pumpkin Pie Cookie",
+			icon: "img/card/pumpkin_pie.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["darkness"],
+			alias: ["ppc"],
+			builds: [
+	]},
+	{
+			name: "Mala Sauce Cookie",
+			icon: "img/card/mala_sauce.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["fire"],
+			alias: ["msc"],
+			builds: [
+	]},
+	{
+			name: "Twizzly Gummy Cookie",
+			icon: "img/card/twizzly_gummy.png",
+			rarity: "epic",
+			role: "ranged",
+			position: "rear",
+			element: ["electricity"],
+			alias: ["tgummy","tgc"],
+			builds: [
+	]},
+	{
+			name: "Sonic Cookie",
+			icon: "img/card/sonic.png",
+			rarity: "special",
+			role: "ambush",
+			position: "middle",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Tails Cookie",
+			icon: "img/card/tails.png",
+			rarity: "special",
+			role: "ambush",
+			position: "middle",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Moon Rabbit Cookie",
+			icon: "img/card/moon_rabbit.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: [],
+			alias: ["mrabbit","mrc"],
+			builds: [
+	]},
+	{
+			name: "Raspberry Cookie",
+			icon: "img/card/raspberry.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["steel"],
+			alias: ["rberry","rbc"],
+			builds: [
+	]},
+	{
+			name: "Hollyberry Cookie",
+			icon: "img/card/hollyberry.png",
+			rarity: "ancient",
+			role: "defense",
+			position: "front",
+			element: ["steel"],
+			alias: ["hberry","hbc"],
+			builds: [
+	]},
+	{
+			name: "Parfait Cookie",
+			icon: "img/card/parfait.png",
+			rarity: "epic",
+			role: "support",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Squid Ink Cookie",
+			icon: "img/card/squid_ink.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["water"],
+			alias: ["squink","sic"],
+			builds: [
+	]},
+	{
+			name: "Sorbet Shark Cookie",
+			icon: "img/card/sorbet_shark.png",
+			rarity: "epic",
+			role: "ambush",
+			position: "middle",
+			element: ["water"],
+			alias: ["sshark","ssc"],
+			builds: [
+	]},
+	{
+			name: "Lilac Cookie",
+			icon: "img/card/lilac.png",
+			rarity: "epic",
+			role: "support",
+			position: "middle",
+			element: ["grass"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Mango Cookie",
+			icon: "img/card/mango.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["water"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Sea Fairy Cookie",
+			icon: "img/card/sea_fairy.png",
+			rarity: "legendary",
+			role: "bomber",
+			position: "middle",
+			element: ["water"],
+			alias: ["sfairy","sfc"],
+			builds: [
+	]},
+	{
+			name: "Devil Cookie",
+			icon: "img/card/devil.png",
+			rarity: "rare",
+			role: "magic",
+			position: "middle",
+			element: ["darkness"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Red Velvet Cookie",
+			icon: "img/card/red_velvet.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["darkness"],
+			alias: ["rvelvet","rvc"],
+			builds: [
+	]},
+	{
+			name: "Pastry Cookie",
+			icon: "img/card/pastry.png",
+			rarity: "epic",
+			role: "ranged",
+			position: "rear",
+			element: ["wind"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Fig Cookie",
+			icon: "img/card/fig.png",
+			rarity: "epic",
+			role: "support",
+			position: "middle",
+			element: ["grass"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Strawberry Crepe Cookie",
+			icon: "img/card/strawberry_crepe.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: [],
+			alias: ["screpe","scc"],
+			builds: [
+	]},
+	{
+			name: "Black Raisin Cookie",
+			icon: "img/card/black_raisin.png",
+			rarity: "epic",
+			role: "ambush",
+			position: "middle",
+			element: ["darkness"],
+			alias: ["braisin","brc"],
+			builds: [
+	]},
+	{
+			name: "Pure Vanilla Cookie",
+			icon: "img/card/pure_vanilla.png",
+			rarity: "ancient",
+			role: "healing",
+			position: "rear",
+			element: [],
+			alias: ["pvanilla","pvc"],
+			builds: [
+	]},
+	{
+			name: "Almond Cookie",
+			icon: "img/card/almond.png",
+			rarity: "epic",
+			role: "support",
+			position: "rear",
+			element: ["earth"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Cream Puff Cookie",
+			icon: "img/card/cream_puff.png",
+			rarity: "epic",
+			role: "support",
+			position: "rear",
+			element: ["light"],
+			alias: ["cpuff","cpc"],
+			builds: [
+	]},
+	{
+			name: "Latte Cookie",
+			icon: "img/card/latte.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["earth"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Kumiho Cookie",
+			icon: "img/card/kumiho.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["wind"],
+			alias: [],
 			builds: [
 	]}
 ];
