@@ -48,8 +48,9 @@ nav {
 	position: relative;
 	display: flex;
 	align-items: center;
-	gap: 5px;
+	gap: 4px;
 	cursor: pointer;
+	padding-right: 10px;
 }
 
 #brand h1 { font-size: 1.5rem; }
@@ -79,7 +80,7 @@ nav {
 
 #search {
 	flex: 1;
-	min-width: 140px;
+	min-width: 160px;
 	background: var(--dark0);
 	border: 1px solid var(--border1);
 	border-radius: 5px;
@@ -91,9 +92,9 @@ nav {
 
 #filters {
 	display: grid;
-	gap: 10px;
+	gap: 5px 15px;
 	flex: 1;
-	grid-template-columns: 1fr 1fr 1fr 1fr auto;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
 .dropdown {
@@ -177,9 +178,10 @@ nav {
 	color: var(--warn1);
 	border: 1px solid var(--warn1);
 	border-radius: 5px;
-	padding: 5px 10px;
+	padding: 5px;
 	cursor: pointer;
 	transition: 0.1s;
+	width: 60px;
 }
 
 #clear:hover {
@@ -287,3 +289,16 @@ aside h2, aside h3 { text-align: center; }
 .toppings img:nth-child(4) { left:72%; top:45%; transform:translate(-50%,-50%) rotate(72deg); }
 .toppings img:nth-child(5) { left:36%; top:71%; transform:translate(-50%,-50%) rotate(-144deg); }
 .toppings img:nth-child(6) { left:64%; top:71%; transform:translate(-50%,-50%) rotate(144deg); }
+
+@media (max-width: 630px) {
+	#filters {
+		grid-template-columns: 1fr 1fr;
+		gap: 5px 10px;
+	}
+	main {
+		grid-template-columns: auto;
+		grid-template-rows: auto 326px;
+	}
+	nav { gap: 5px 10px; }
+	#grid { padding: 10px; )
+}
