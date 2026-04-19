@@ -134,7 +134,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: ["poison","chaos"],
-			alias: ["ppdc"],
+			alias: ["pdough","ppdough","ppdc"],
 			builds: [{
 				title: "Red Velvet Dragon",
 				beascuitImgs: ["img/base/support.png","img/core/support04.png"],
@@ -172,7 +172,7 @@ const data = [
 			role: "bomber",
 			position: "rear",
 			element: ["poison","chaos"],
-			alias: ["vdough","vdc"],
+			alias: ["vdough","vendough","vdc"],
 			builds: [
 			{
 				title: "Arena",
@@ -532,6 +532,16 @@ const data = [
 				substats: ["DMG Resist","Cooldown","ATK"],
 				requirement: ""
 			}
+	]},
+	{
+			name: "White Lily Cookie (Awakened)",
+			icon: "img/card/white_lily_awakened.png",
+			rarity: "ancient",
+			role: "bomber",
+			position: "middle",
+			element: ["grass"],
+			alias: ["awlc","awwlc","awkwlc","dbwlc","wlawk","wldb","wlcawk","wlcdb","awakened dawnbringer awk aw db white lily wlily willy wl wlc cookie awakened dawnbringer awk aw db"],
+			builds: [
 	]},
 	{
 			name: "Charcoal Cookie",
@@ -1038,6 +1048,16 @@ const data = [
 			}
 	]},
 	{
+			name: "Hollyberry Cookie (Awakened)",
+			icon: "img/card/hollyberry_awakened.png",
+			rarity: "ancient",
+			role: "defense",
+			position: "front",
+			element: ["steel"],
+			alias: ["ahbc","awhbc","awkhbc","hbawk","hbcawk","awakened aegis awk aw hollyberry hberry hb hbc cookie awakened aegis awk aw"],
+			builds: [
+	]},
+	{
 			name: "Pavlova Cookie",
 			icon: "img/card/pavlova.png",
 			rarity: "epic",
@@ -1381,6 +1401,16 @@ const data = [
 			}
 	]},
 	{
+			name: "Pure Vanilla Cookie (Awakened)",
+			icon: "img/card/pure_vanilla_awakened.png",
+			rarity: "ancient",
+			role: "healing",
+			position: "rear",
+			element: ["light"],
+			alias: ["apvc","awpvc","awkpvc","cpvc","pvawk","pvcawk","pvcc","awakened compassionate awk aw pure vanilla pvanilla pv pvc cookie awakened compassionate awk aw"],
+			builds: [
+	]},
+	{
 			name: "Candy Apple Cookie",
 			icon: "img/card/candy_apple.png",
 			rarity: "epic",
@@ -1421,13 +1451,13 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Pudding a la Mode Cookie",
+			name: "Pudding à la Mode Cookie",
 			icon: "img/card/pudding_a_la_mode.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "rear",
 			element: ["electricity"],
-			alias: ["palmc"],
+			alias: ["pudding a la mode cookie","palmc"],
 			builds: [
 	]},
 	{
@@ -1478,6 +1508,16 @@ const data = [
 			position: "rear",
 			element: ["earth"],
 			alias: ["scc"],
+			builds: [
+	]},
+	{
+			name: "Golden Cheese Cookie (Awakened)",
+			icon: "img/card/golden_cheese_awakened.png",
+			rarity: "ancient",
+			role: "ranged",
+			position: "middle",
+			element: ["earth"],
+			alias: ["agcc","awgcc","awkgcc","igcc","gcawk","gci","gccawk","gcci","awakened immortal awk aw golden cheese gcheese gc gcc awakened cookie immortal awk aw"],
 			builds: [
 	]},
 	{
@@ -1541,6 +1581,16 @@ const data = [
 			builds: [
 	]},
 	{
+			name: "Dark Cacao Cookie (Awakened)",
+			icon: "img/card/dark_cacao_awakened.png",
+			rarity: "ancient",
+			role: "charge",
+			position: "front",
+			element: ["darkness"],
+			alias: ["adcc","awdcc","awkdcc","dldcc","dcawk","dcdl","dccawk","dccdl","adcac","awdcac","awkdcac","dldcac","dcaawk","dcadl","dcacawk","dcacdl","awakened dragon lord awk aw dl dark cacao dcacao dca dcc dcac cookie awakened dragon lord awk aw dl"],
+			builds: [
+	]},
+	{
 			name: "Cloud Haetae Cookie",
 			icon: "img/card/cloud_haetae.png",
 			rarity: "epic",
@@ -1601,16 +1651,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Elder Faerie Cookie",
-			icon: "img/card/elder_faerie.png",
-			rarity: "super epic",
-			role: "defense",
-			position: "front",
-			element: ["steel"],
-			alias: ["efaerie","efc"],
-			builds: [
-	]},
-	{
 			name: "Matcha Cookie",
 			icon: "img/card/matcha.png",
 			rarity: "epic",
@@ -1618,6 +1658,16 @@ const data = [
 			position: "middle",
 			element: ["poison","grass"],
 			alias: [],
+			builds: [
+	]},
+	{
+			name: "Elder Faerie Cookie",
+			icon: "img/card/elder_faerie.png",
+			rarity: "super epic",
+			role: "defense",
+			position: "front",
+			element: ["steel"],
+			alias: ["efaerie","efc"],
 			builds: [
 	]},
 	{
@@ -1671,13 +1721,13 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Creme Brulee Cookie",
+			name: "Crème Brûlée Cookie",
 			icon: "img/card/creme_brulee.png",
 			rarity: "epic",
 			role: "ranged",
 			position: "rear",
 			element: ["light"],
-			alias: ["cbrulee","cbc"],
+			alias: ["creme brulee cookie","cbrulee","cbc"],
 			builds: [
 	]},
 	{
@@ -1781,16 +1831,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Rockstar Cookie",
-			icon: "img/card/rockstar.png",
-			rarity: "epic",
-			role: "healing",
-			position: "middle",
-			element: [],
-			alias: ["rstar","rsc"],
-			builds: [
-	]},
-	{
 			name: "Shining Glitter Cookie",
 			icon: "img/card/shining_glitter.png",
 			rarity: "super epic",
@@ -1798,6 +1838,16 @@ const data = [
 			position: "middle",
 			element: ["electricity"],
 			alias: ["sglitter","sgc"],
+			builds: [
+	]},
+	{
+			name: "Rockstar Cookie",
+			icon: "img/card/rockstar.png",
+			rarity: "epic",
+			role: "healing",
+			position: "middle",
+			element: [],
+			alias: ["rstar","rsc"],
 			builds: [
 	]},
 	{
@@ -1821,16 +1871,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Royal Margarine Cookie",
-			icon: "img/card/royal_margarine.png",
-			rarity: "epic",
-			role: "ambush",
-			position: "middle",
-			element: ["poison"],
-			alias: ["rmargarine","rmc"],
-			builds: [
-	]},
-	{
 			name: "Pitaya Dragon Cookie",
 			icon: "img/card/pitaya_dragon.png",
 			rarity: "dragon",
@@ -1838,6 +1878,16 @@ const data = [
 			position: "front",
 			element: ["fire"],
 			alias: ["pdragon","pdc"],
+			builds: [
+	]},
+	{
+			name: "Royal Margarine Cookie",
+			icon: "img/card/royal_margarine.png",
+			rarity: "epic",
+			role: "ambush",
+			position: "middle",
+			element: ["poison"],
+			alias: ["rmargarine","rmc"],
 			builds: [
 	]},
 	{
@@ -1871,16 +1921,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Space Doughnut Cookie",
-			icon: "img/card/space_doughnut.png",
-			rarity: "epic",
-			role: "charge",
-			position: "front",
-			element: [],
-			alias: ["space donut","sdoughnut","sdonut","sdc"],
-			builds: [
-	]},
-	{
 			name: "Stardust Cookie",
 			icon: "img/card/stardust.png",
 			rarity: "super epic",
@@ -1888,6 +1928,16 @@ const data = [
 			position: "middle",
 			element: [],
 			alias: ["sdust","sdc"],
+			builds: [
+	]},
+	{
+			name: "Space Doughnut",
+			icon: "img/card/space_doughnut.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: [],
+			alias: ["space donut","sdoughnut","sdonut","sd"],
 			builds: [
 	]},
 	{
@@ -1901,16 +1951,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Moonlight Cookie",
-			icon: "img/card/moonlight.png",
-			rarity: "legendary",
-			role: "magic",
-			position: "middle",
-			element: [],
-			alias: ["mlight","mlc"],
-			builds: [
-	]},
-	{
 			name: "Milky Way Cookie",
 			icon: "img/card/milky_way.png",
 			rarity: "epic",
@@ -1918,6 +1958,16 @@ const data = [
 			position: "front",
 			element: [],
 			alias: ["mway","mwc"],
+			builds: [
+	]},
+	{
+			name: "Moonlight Cookie",
+			icon: "img/card/moonlight.png",
+			rarity: "legendary",
+			role: "magic",
+			position: "middle",
+			element: [],
+			alias: ["mlight","mlc"],
 			builds: [
 	]},
 	{
@@ -1941,22 +1991,22 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Carol Cookie",
-			icon: "img/card/carol.png",
-			rarity: "epic",
-			role: "healing",
-			position: "rear",
-			element: ["grass"],
-			alias: [],
-			builds: [
-	]},
-	{
 			name: "Sherbet Cookie",
 			icon: "img/card/sherbet.png",
 			rarity: "super epic",
 			role: "ranged",
 			position: "middle",
 			element: ["ice"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Carol Cookie",
+			icon: "img/card/carol.png",
+			rarity: "epic",
+			role: "healing",
+			position: "rear",
+			element: ["grass"],
 			alias: [],
 			builds: [
 	]},
@@ -1971,8 +2021,28 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "RM Cookie",
-			icon: "img/card/rm.png",
+			name: "Schwarzwälder Cookie",
+			icon: "img/card/schwarzwalder.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["steel","chaos"],
+			alias: ["schwarzwalder","choco werehound brute","charles"],
+			builds: [
+	]},
+	{
+			name: "Jung Kook Cookie",
+			icon: "img/card/jung_kook.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: ["jk"],
+			builds: [
+	]},
+	{
+			name: "V Cookie",
+			icon: "img/card/v.png",
 			rarity: "special",
 			role: "bts",
 			position: "rear",
@@ -1983,16 +2053,6 @@ const data = [
 	{
 			name: "Jin Cookie",
 			icon: "img/card/jin.png",
-			rarity: "special",
-			role: "bts",
-			position: "rear",
-			element: [],
-			alias: [],
-			builds: [
-	]},
-	{
-			name: "SUGA Cookie",
-			icon: "img/card/suga.png",
 			rarity: "special",
 			role: "bts",
 			position: "rear",
@@ -2011,6 +2071,16 @@ const data = [
 			builds: [
 	]},
 	{
+			name: "SUGA Cookie",
+			icon: "img/card/suga.png",
+			rarity: "special",
+			role: "bts",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
 			name: "Jin Cookie",
 			icon: "img/card/jin.png",
 			rarity: "special",
@@ -2021,33 +2091,13 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "V Cookie",
-			icon: "img/card/v.png",
+			name: "RM Cookie",
+			icon: "img/card/rm.png",
 			rarity: "special",
 			role: "bts",
 			position: "rear",
 			element: [],
 			alias: [],
-			builds: [
-	]},
-	{
-			name: "Jung Kook Cookie",
-			icon: "img/card/jung_kook.png",
-			rarity: "special",
-			role: "bts",
-			position: "rear",
-			element: [],
-			alias: ["jk"],
-			builds: [
-	]},
-	{
-			name: "Schwarzwalder Cookie",
-			icon: "img/card/schwarzwalder.png",
-			rarity: "epic",
-			role: "charge",
-			position: "front",
-			element: ["steel","chaos"],
-			alias: ["choco werehound brute","charles"],
 			builds: [
 	]},
 	{
@@ -2061,16 +2111,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Captain Caviar Cookie",
-			icon: "img/card/captain_caviar.png",
-			rarity: "epic",
-			role: "bomber",
-			position: "middle",
-			element: ["water"],
-			alias: ["ccaviar","ccc"],
-			builds: [
-	]},
-	{
 			name: "Black Pearl Cookie",
 			icon: "img/card/black_pearl.png",
 			rarity: "legendary",
@@ -2078,6 +2118,16 @@ const data = [
 			position: "middle",
 			element: ["water"],
 			alias: ["bpearl","bpc"],
+			builds: [
+	]},
+	{
+			name: "Captain Caviar Cookie",
+			icon: "img/card/captain_caviar.png",
+			rarity: "epic",
+			role: "bomber",
+			position: "middle",
+			element: ["water"],
+			alias: ["ccaviar","ccc"],
 			builds: [
 	]},
 	{
@@ -2121,16 +2171,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Wildberry Cookie",
-			icon: "img/card/wildberry.png",
-			rarity: "epic",
-			role: "defense",
-			position: "front",
-			element: ["steel"],
-			alias: ["wberry","wbc"],
-			builds: [
-	]},
-	{
 			name: "Clotted Cream Cookie",
 			icon: "img/card/clotted_cream.png",
 			rarity: "super epic",
@@ -2138,6 +2178,16 @@ const data = [
 			position: "middle",
 			element: ["light"],
 			alias: ["ccream","ccc"],
+			builds: [
+	]},
+	{
+			name: "Wildberry Cookie",
+			icon: "img/card/wildberry.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: ["steel"],
+			alias: ["wberry","wbc"],
 			builds: [
 	]},
 	{
@@ -2151,16 +2201,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Caramel Arrow Cookie",
-			icon: "img/card/caramel_arrow.png",
-			rarity: "epic",
-			role: "ranged",
-			position: "front",
-			element: ["darkness"],
-			alias: ["carrow","cac"],
-			builds: [
-	]},
-	{
 			name: "Dark Cacao Cookie",
 			icon: "img/card/dark_cacao.png",
 			rarity: "ancient",
@@ -2168,6 +2208,16 @@ const data = [
 			position: "front",
 			element: ["darkness","electricity"],
 			alias: ["dcacao","dcc","dcac"],
+			builds: [
+	]},
+	{
+			name: "Caramel Arrow Cookie",
+			icon: "img/card/caramel_arrow.png",
+			rarity: "epic",
+			role: "ranged",
+			position: "front",
+			element: ["darkness"],
+			alias: ["carrow","cac"],
 			builds: [
 	]},
 	{
@@ -2241,16 +2291,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Mala Sauce Cookie",
-			icon: "img/card/mala_sauce.png",
-			rarity: "epic",
-			role: "charge",
-			position: "front",
-			element: ["fire"],
-			alias: ["msc"],
-			builds: [
-	]},
-	{
 			name: "Twizzly Gummy Cookie",
 			icon: "img/card/twizzly_gummy.png",
 			rarity: "epic",
@@ -2261,8 +2301,18 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Sonic Cookie",
-			icon: "img/card/sonic.png",
+			name: "Mala Sauce Cookie",
+			icon: "img/card/mala_sauce.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["fire"],
+			alias: ["msc"],
+			builds: [
+	]},
+	{
+			name: "Tails Cookie",
+			icon: "img/card/tails.png",
 			rarity: "special",
 			role: "ambush",
 			position: "middle",
@@ -2271,8 +2321,8 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Tails Cookie",
-			icon: "img/card/tails.png",
+			name: "Sonic Cookie",
+			icon: "img/card/sonic.png",
 			rarity: "special",
 			role: "ambush",
 			position: "middle",
@@ -2291,16 +2341,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Raspberry Cookie",
-			icon: "img/card/raspberry.png",
-			rarity: "epic",
-			role: "charge",
-			position: "front",
-			element: ["steel"],
-			alias: ["rberry","rbc"],
-			builds: [
-	]},
-	{
 			name: "Hollyberry Cookie",
 			icon: "img/card/hollyberry.png",
 			rarity: "ancient",
@@ -2308,6 +2348,16 @@ const data = [
 			position: "front",
 			element: ["steel"],
 			alias: ["hberry","hbc"],
+			builds: [
+	]},
+	{
+			name: "Raspberry Cookie",
+			icon: "img/card/raspberry.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["steel"],
+			alias: ["rberry","rbc"],
 			builds: [
 	]},
 	{
@@ -2321,16 +2371,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Squid Ink Cookie",
-			icon: "img/card/squid_ink.png",
-			rarity: "epic",
-			role: "magic",
-			position: "middle",
-			element: ["water"],
-			alias: ["squink","sic"],
-			builds: [
-	]},
-	{
 			name: "Sorbet Shark Cookie",
 			icon: "img/card/sorbet_shark.png",
 			rarity: "epic",
@@ -2341,22 +2381,22 @@ const data = [
 			builds: [
 	]},
 	{
+			name: "Squid Ink Cookie",
+			icon: "img/card/squid_ink.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["water"],
+			alias: ["squink","sic"],
+			builds: [
+	]},
+	{
 			name: "Lilac Cookie",
 			icon: "img/card/lilac.png",
 			rarity: "epic",
 			role: "support",
 			position: "middle",
 			element: ["grass"],
-			alias: [],
-			builds: [
-	]},
-	{
-			name: "Mango Cookie",
-			icon: "img/card/mango.png",
-			rarity: "epic",
-			role: "magic",
-			position: "middle",
-			element: ["water"],
 			alias: [],
 			builds: [
 	]},
@@ -2371,12 +2411,32 @@ const data = [
 			builds: [
 	]},
 	{
+			name: "Mango Cookie",
+			icon: "img/card/mango.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["water"],
+			alias: [],
+			builds: [
+	]},
+	{
 			name: "Devil Cookie",
 			icon: "img/card/devil.png",
 			rarity: "rare",
 			role: "magic",
 			position: "middle",
 			element: ["darkness"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Fig Cookie",
+			icon: "img/card/fig.png",
+			rarity: "epic",
+			role: "support",
+			position: "middle",
+			element: ["grass"],
 			alias: [],
 			builds: [
 	]},
@@ -2401,16 +2461,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Fig Cookie",
-			icon: "img/card/fig.png",
-			rarity: "epic",
-			role: "support",
-			position: "middle",
-			element: ["grass"],
-			alias: [],
-			builds: [
-	]},
-	{
 			name: "Strawberry Crepe Cookie",
 			icon: "img/card/strawberry_crepe.png",
 			rarity: "epic",
@@ -2421,16 +2471,6 @@ const data = [
 			builds: [
 	]},
 	{
-			name: "Black Raisin Cookie",
-			icon: "img/card/black_raisin.png",
-			rarity: "epic",
-			role: "ambush",
-			position: "middle",
-			element: ["darkness"],
-			alias: ["braisin","brc"],
-			builds: [
-	]},
-	{
 			name: "Pure Vanilla Cookie",
 			icon: "img/card/pure_vanilla.png",
 			rarity: "ancient",
@@ -2438,6 +2478,16 @@ const data = [
 			position: "rear",
 			element: [],
 			alias: ["pvanilla","pvc"],
+			builds: [
+	]},
+	{
+			name: "Black Raisin Cookie",
+			icon: "img/card/black_raisin.png",
+			rarity: "epic",
+			role: "ambush",
+			position: "middle",
+			element: ["darkness"],
+			alias: ["braisin","brc"],
 			builds: [
 	]},
 	{
@@ -2478,6 +2528,376 @@ const data = [
 			position: "front",
 			element: ["wind"],
 			alias: [],
+			builds: [
+	]},
+	{
+			name: "Rye Cookie",
+			icon: "img/card/rye.png",
+			rarity: "epic",
+			role: "ranged",
+			position: "rear",
+			element: ["fire"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Custard Cookie III",
+			icon: "img/card/custard_III.png",
+			rarity: "rare",
+			role: "healing",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Espresso Cookie",
+			icon: "img/card/espresso.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["earth"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Clover Cookie",
+			icon: "img/card/clover.png",
+			rarity: "rare",
+			role: "support",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Madeleine Cookie",
+			icon: "img/card/madeleine.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: ["light"],
+			alias: ["maddy"],
+			builds: [
+	]},
+	{
+			name: "Licorice Cookie",
+			icon: "img/card/licorice.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["darkness","poison","chaos"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Poison Mushroom Cookie",
+			icon: "img/card/poison_mushroom.png",
+			rarity: "epic",
+			role: "bomber",
+			position: "middle",
+			element: ["poison","chaos"],
+			alias: ["pmushroom","shroomie","pmc"],
+			builds: [
+	]},
+	{
+			name: "Milk Cookie",
+			icon: "img/card/milk.png",
+			rarity: "epic",
+			role: "defense",
+			position: "front",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Purple Yam Cookie",
+			icon: "img/card/purple_yam.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["grass"],
+			alias: ["pyam","pyc"],
+			builds: [
+	]},
+	{
+			name: "Beet Cookie",
+			icon: "img/card/beet.png",
+			rarity: "common",
+			role: "ranged",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Carrot Cookie",
+			icon: "img/card/carrot.png",
+			rarity: "rare",
+			role: "support",
+			position: "middle",
+			element: ["grass"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Pomegranate Cookie",
+			icon: "img/card/pomegranate.png",
+			rarity: "epic",
+			role: "support",
+			position: "middle",
+			element: ["chaos"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Chili Pepper Cookie",
+			icon: "img/card/chili_pepper.png",
+			rarity: "epic",
+			role: "ambush",
+			position: "middle",
+			element: ["fire"],
+			alias: ["cpepper","cpc"],
+			builds: [
+	]},
+	{
+			name: "Avocado Cookie",
+			icon: "img/card/avocado.png",
+			rarity: "rare",
+			role: "defense",
+			position: "front",
+			element: ["steel"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Sparkling Cookie",
+			icon: "img/card/sparkling.png",
+			rarity: "epic",
+			role: "healing",
+			position: "rear",
+			element: ["light"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Dark Choco Cookie",
+			icon: "img/card/dark_choco.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["darkness"],
+			alias: ["dchoco","dcc"],
+			builds: [
+	]},
+	{
+			name: "Pancake Cookie",
+			icon: "img/card/pancake.png",
+			rarity: "rare",
+			role: "ambush",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Herb Cookie",
+			icon: "img/card/herb.png",
+			rarity: "epic",
+			role: "healing",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Onion Cookie",
+			icon: "img/card/onion.png",
+			rarity: "rare",
+			role: "support",
+			position: "middle",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Gumball Cookie",
+			icon: "img/card/gumball.png",
+			rarity: "rare",
+			role: "bomber",
+			position: "rear",
+			element: [],
+			alias: ["gball","gbc"],
+			builds: [
+	]},
+	{
+			name: "Mint Choco Cookie",
+			icon: "img/card/mint_choco.png",
+			rarity: "epic",
+			role: "support",
+			position: "rear",
+			element: ["wind"],
+			alias: ["mchoco","mcc"],
+			builds: [
+	]},
+	{
+			name: "Werewolf Cookie",
+			icon: "img/card/werewolf.png",
+			rarity: "epic",
+			role: "charge",
+			position: "front",
+			element: ["steel"],
+			alias: ["wwolf","wwc"],
+			builds: [
+	]},
+	{
+			name: "Blackberry Cookie",
+			icon: "img/card/blackberry.png",
+			rarity: "rare",
+			role: "magic",
+			position: "rear",
+			element: [],
+			alias: ["bberry","bbc"],
+			builds: [
+	]},
+	{
+			name: "Tiger Lily Cookie",
+			icon: "img/card/tiger_lily.png",
+			rarity: "epic",
+			role: "ranged",
+			position: "rear",
+			element: [],
+			alias: ["tlily","tlc"],
+			builds: [
+	]},
+	{
+			name: "Adventurer Cookie",
+			icon: "img/card/adventurer.png",
+			rarity: "rare",
+			role: "ambush",
+			position: "middle",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Vampire Cookie",
+			icon: "img/card/vampire.png",
+			rarity: "epic",
+			role: "ambush",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Alchemist Cookie",
+			icon: "img/card/alchemist.png",
+			rarity: "rare",
+			role: "middle",
+			position: "middle",
+			element: ["poison"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Snow Sugar Cookie",
+			icon: "img/card/snow_sugar.png",
+			rarity: "epic",
+			role: "magic",
+			position: "middle",
+			element: ["ice"],
+			alias: ["ssugar","ssc"],
+			builds: [
+	]},
+	{
+			name: "Cherry Cookie",
+			icon: "img/card/cherry.png",
+			rarity: "rare",
+			role: "bomber",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Wizard Cookie",
+			icon: "img/card/wizard.png",
+			rarity: "common",
+			role: "magic",
+			position: "middle",
+			element: ["electricity"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Muscle Cookie",
+			icon: "img/card/muscle.png",
+			rarity: "common",
+			role: "charge",
+			position: "front",
+			element: ["steel"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Angel Cookie",
+			icon: "img/card/angel.png",
+			rarity: "common",
+			role: "healing",
+			position: "rear",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Knight Cookie",
+			icon: "img/card/knight.png",
+			rarity: "rare",
+			role: "defense",
+			position: "front",
+			element: ["steel"],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Princess Cookie",
+			icon: "img/card/princess.png",
+			rarity: "rare",
+			role: "charge",
+			position: "front",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Ninja Cookie",
+			icon: "img/card/ninja.png",
+			rarity: "common",
+			role: "ambush",
+			position: "middle",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "Strawberry Cookie",
+			icon: "img/card/strawberry.png",
+			rarity: "common",
+			role: "defense",
+			position: "front",
+			element: [],
+			alias: [],
+			builds: [
+	]},
+	{
+			name: "GingerBrave Cookie",
+			icon: "img/card/gingerbrave.png",
+			rarity: "common",
+			role: "charge",
+			position: "front",
+			element: [],
+			alias: ["gbc"],
 			builds: [
 	]}
 ];
