@@ -1371,7 +1371,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["fire","electricity","water","wind","ice"],
-			resonant: ["flaming","smithy","frost-herbalist","heaven-splitter","heaven-splitter"],
+			resonant: ["flaming","smithy","frost-herbalist","heaven-splitter"],
 			alias: ["aagar","aac"],
 			builds: [
 			{

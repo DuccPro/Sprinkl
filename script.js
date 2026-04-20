@@ -186,3 +186,11 @@ document.getElementById("clear").onclick = () => {
 
 renderActiveStates();
 renderGrid(data);
+
+const filterBtn = document.getElementById("filter-toggle");
+const filtersEl = document.getElementById("filters");
+
+filterBtn.addEventListener("click", () => {
+	const isOpen = filtersEl.classList.toggle("open");
+	filterBtn.classList.toggle("active", isOpen);
+});

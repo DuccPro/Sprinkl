@@ -12,12 +12,11 @@
 
 <nav>
 	<div id="brand">
-		<span class="material-icons info-icon"> info </span>
 		<img src="img/logo.png">
 		<div id="tooltip"> Discord: @duccpro <br> Twitter: @Duccpro <br> Youtube: @DuccPro </div>
 	</div>
 	<input id="search" placeholder="Search...">
-	<button id="clear"> Clear </button>
+	<button id="filter-toggle" class="filter-btn"> <span class="material-icons"> filter_list </span> </button>
 	<div id="filters">
 		<div class="dropdown" data-key="rarity">
 			<div class="dropdown-header"> Rarity </div>
@@ -117,14 +116,12 @@
 			</div>
 		</div>
 	</div>
+	<button id="clear"> Clear </button>
 </nav>
-
-<main>
-	<div id="grid"></div>
-	<aside>
-		<div id="details"></div>
-	</aside>
-</main>
+<main id="grid"> </main>
+<aside>
+	<div id="details"> </div>
+</aside>
 
 <script src="data.js"></script>
 <script src="script.js"></script>
