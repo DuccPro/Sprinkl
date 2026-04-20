@@ -48,15 +48,19 @@ nav {
 	display: flex;
 	align-items: center;
 	cursor: pointer;
+	gap: 5px;
+	
 }
-#brand img { height: 32px; }
+#brand img { height: 32px; width: 32px; }
+#brand h1 { font-size: 1.5rem; }
+
 
 #tooltip {
 	position: absolute;
-	top: 35px;
+	top: 40px;
 	left: 0;
 	padding: 5px 10px;
-	background: var(--dark3);
+	background: var(--dark2);
 	border-radius: 5px;
 	font-size: 0.8rem;
 	border: 1px solid var(--border1);
@@ -75,7 +79,7 @@ nav {
 
 #search {
 	flex: 1;
-	min-width: 180px;
+	min-width: 200px;
 	background: var(--dark0);
 	border: 1px solid var(--border1);
 	border-radius: 5px;
@@ -163,13 +167,13 @@ nav {
 }
 
 #clear {
-	background: transparent;
-	color: var(--warn1);
+	background: var(--dark0);
 	border: 1px solid var(--warn1);
 	border-radius: 5px;
-	padding: 5px 10px;
+	padding: 3px;
 	cursor: pointer;
 	transition: 0.1s;
+	
 }
 
 #clear:hover {
@@ -177,6 +181,15 @@ nav {
 	border-color: var(--warn2);
 	color: var(--warn2);
 }
+
+#clear .material-icons {
+	color: var(--warn1);
+	transition: 0.1s;
+}
+#clear:hover .material-icons {
+	color: var(--warn2);
+}
+
 
 /*main*/
 
@@ -296,7 +309,6 @@ aside h2, aside h3 { text-align: center; }
 		border-left: none;
 		border-top: 1px solid var(--border1);
 	}
-	#brand img { height: 28px; }
 	aside h2 { font-size: 1.17rem; }
 	body {
 		grid-template-rows: auto 1fr 311px;
@@ -306,14 +318,14 @@ aside h2, aside h3 { text-align: center; }
 .filter-btn {
 	display: none;
 	align-items: center;
-	padding: 5px;
+	padding: 3px;
 	cursor: pointer;
 	background: var(--dark0);
 	border: 1px solid var(--border1);
 	border-radius: 5px;
 }
 
-@media (max-width: 1250px) {
+@media (max-width: 1300px) {
 	.filter-btn {
 		display: flex;
 	}
@@ -332,6 +344,8 @@ aside h2, aside h3 { text-align: center; }
 	#filters.open {
 		display: flex;
 	}
+}
 
-
+@media (max-width: 500px) {
+	#brand h1 { display: none; }
 }
