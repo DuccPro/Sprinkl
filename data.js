@@ -6,6 +6,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: [],
+			resonant: ["unison"],
 			alias: [],
 			builds: [
 			{
@@ -31,6 +32,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: [],
+			resonant: ["unison"],
 			alias: [],
 			builds: [
 			{
@@ -56,6 +58,7 @@ const data = [
 			role: "ambush",
 			position: "front",
 			element: [],
+			resonant: ["unison"],
 			alias: [],
 			builds: [
 			{
@@ -81,6 +84,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: ["light"],
+			resonant: ["life-energy"],
 			alias: ["sswan","ssc"],
 			builds: [
 			{
@@ -134,6 +138,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: ["poison","chaos"],
+			resonant: ["looming-dark","life-energy"],
 			alias: ["pdough","ppdough","ppdc"],
 			builds: [{
 				title: "Red Velvet Dragon 1",
@@ -172,6 +177,7 @@ const data = [
 			role: "bomber",
 			position: "rear",
 			element: ["poison","chaos"],
+			resonant: ["looming-dark","life-energy"],
 			alias: ["vdough","vendough","vdc"],
 			builds: [
 			{
@@ -225,6 +231,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["chaos"],
+			resonant: ["looming-dark","heaven-splitter","life-energy"],
 			alias: ["mdough","mdc"],
 			builds: [
 			{
@@ -250,6 +257,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["chaos"],
+			resonant: ["looming-dark","heaven-splitter","life-energy"],
 			alias: ["dec"],
 			builds: [
 			{
@@ -289,6 +297,7 @@ const data = [
 			role: "support",
 			position: "front",
 			element: ["grass"],
+			resonant: ["ancient-root","frost-herbalist","crossed-fates"],
 			alias: ["mtree","mtc"],
 			builds: [
 			{
@@ -356,6 +365,7 @@ const data = [
 			role: "magic",
 			position: "rear",
 			element: [],
+			resonant: ["verdigris"],
 			alias: [],
 			builds: [
 			{
@@ -395,6 +405,7 @@ const data = [
 			role: "magic",
 			position: "rear",
 			element: [],
+			resonant: ["verdigris"],
 			alias: [],
 			builds: [
 			{
@@ -434,6 +445,7 @@ const data = [
 			role: "bomber",
 			position: "rear",
 			element: ["chaos"],
+			resonant: ["gambit","looming-dark","heaven-splitter"],
 			alias: ["cchoco","ccc"],
 			builds: [
 			{
@@ -473,6 +485,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["steel"],
+			resonant: ["blooming","smithy"],
 			alias: ["scellar","scc"],
 			builds: [
 			{
@@ -512,6 +525,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["grass"],
+			resonant: ["blooming","frost-herbalist","crossed-fates"],
 			alias: ["awlc","awwlc","awkwlc","dbwlc","wlawk","wldb","wlcawk","wlcdb","awakened dawnbringer awk aw db white lily wlily willy wl wlc cookie awakened dawnbringer awk aw db"],
 			builds: [
 			{
@@ -593,6 +607,7 @@ const data = [
 			role: "magic",
 			position: "rear",
 			element: ["darkness"],
+			resonant: ["silent","lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -632,6 +647,7 @@ const data = [
 			role: "ambush",
 			position: "front",
 			element: ["darkness","steel"],
+			resonant: ["silent","smithy","lunar-eclipse","crossed-fates"],
 			alias: ["ssalt","ssc"],
 			builds: [
 			{
@@ -727,6 +743,7 @@ const data = [
 			role: "bomber",
 			position: "rear",
 			element: ["water"],
+			resonant: ["destined","smithy"],
 			alias: ["meth"],
 			builds: [
 			{
@@ -780,6 +797,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["water"],
+			resonant: ["destined","smithy"],
 			alias: [],
 			builds: [
 			{
@@ -805,6 +823,7 @@ const data = [
 			role: "healing",
 			position: "middle",
 			element: [],
+			resonant: ["destined"],
 			alias: ["dghael"],
 			builds: [
 			{
@@ -844,6 +863,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["electricity"],
+			resonant: ["fuzzy-wuzzy","seafarer","heaven-splitter"],
 			alias: ["gfruit","gfc"],
 			builds: [
 			{
@@ -869,6 +889,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: ["fuzzy-wuzzy","seafarer"],
 			alias: [],
 			builds: [
 			{
@@ -894,6 +915,7 @@ const data = [
 			role: "ambush",
 			position: "rear",
 			element: ["water"],
+			resonant: ["seafarer","smithy"],
 			alias: [],
 			builds: [
 			{
@@ -919,6 +941,7 @@ const data = [
 			role: "support",
 			position: "front",
 			element: ["water"],
+			resonant: ["seafarer","smithy"],
 			alias: [],
 			builds: [
 			{
@@ -944,6 +967,7 @@ const data = [
 			role: "magic",
 			position: "rear",
 			element: ["electricity"],
+			resonant: ["fuzzy-wuzzy","seafarer","heaven-splitter"],
 			alias: [],
 			builds: [
 			{
@@ -969,6 +993,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["electricity"],
+			resonant: ["fuzzy-wuzzy","seafarer","verdigris","heaven-splitter"],
 			alias: [],
 			builds: [
 			{
@@ -994,6 +1019,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: ["fuzzy-wuzzy"],
 			alias: ["mbunny","marshbunny","mbc"],
 			builds: [
 			{
@@ -1047,6 +1073,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["water"],
+			resonant: ["smithy"],
 			alias: ["csoda","csc"],
 			builds: [
 			{
@@ -1072,6 +1099,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: ["passionate","unison"],
 			alias: ["sfly","sfc"],
 			builds: [
 			{
@@ -1097,6 +1125,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["steel"],
+			resonant: ["draconic","passionate","smithy","crossed-fates"],
 			alias: ["ahbc","awhbc","awkhbc","hbawk","hbcawk","awakened aegis awk aw hollyberry hberry hb hbc cookie awakened aegis awk aw"],
 			builds: [
 			{
@@ -1150,6 +1179,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: [],
+			resonant: ["indolent"],
 			alias: [],
 			builds: [
 			{
@@ -1189,6 +1219,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["poison"],
+			resonant: ["indolent","frost-herbalist","crossed-fates"],
 			alias: ["esugar","esc"],
 			builds: [
 			{
@@ -1340,6 +1371,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["fire","electricity","water","wind","ice"],
+			resonant: ["flaming","smithy","frost-herbalist","heaven-splitter","heaven-splitter"],
 			alias: ["aagar","aac"],
 			builds: [
 			{
@@ -1379,6 +1411,7 @@ const data = [
 			role: "magic",
 			position: "rear",
 			element: ["fire"],
+			resonant: ["flaming","ancient-root","smithy"],
 			alias: ["fspirit","fsc"],
 			builds: [
 			{
@@ -1418,6 +1451,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: [],
+			resonant: ["sacred-vow"],
 			alias: ["wcc"],
 			builds: [
 			{
@@ -1457,6 +1491,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: [],
+			resonant: ["sacred-vow"],
 			alias: ["bfc"],
 			builds: [
 			{
@@ -1510,6 +1545,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: ["poison"],
+			resonant: ["deceitful","frost-herbalist"],
 			alias: ["bsapph","bsc"],
 			builds: [
 			{
@@ -1549,6 +1585,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: ["light"],
+			resonant: ["truthful","lunar-eclipse","crossed-fates"],
 			alias: ["apvc","awpvc","awkpvc","cpvc","pvawk","pvcawk","pvcc","awakened compassionate awk aw pure vanilla pvanilla pv pvc cookie awakened compassionate awk aw"],
 			builds: [
 			{
@@ -1588,6 +1625,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: [],
+			resonant: ["deceitful"],
 			alias: ["capple","cac"],
 			builds: [
 			{
@@ -1627,6 +1665,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: [],
+			resonant: ["deceitful","crossed-fates"],
 			alias: ["smilk","smc"],
 			builds: [
 			{
@@ -1680,6 +1719,7 @@ const data = [
 			role: "healing",
 			position: "middle",
 			element: [],
+			resonant: ["unison"],
 			alias: [],
 			builds: [
 			{
@@ -1705,6 +1745,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["wind","grass"],
+			resonant: ["iris-gem","blooming","frost-herbalist","heaven-splitter"],
 			alias: ["gtmc"],
 			builds: [
 			{
@@ -1744,6 +1785,7 @@ const data = [
 			role: "bomber",
 			position: "rear",
 			element: ["electricity"],
+			resonant: ["iris-gem","heaven-splitter"],
 			alias: ["pudding a la mode cookie","palmc"],
 			builds: [
 			{
@@ -1783,6 +1825,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["darkness"],
+			resonant: ["iris-gem","lunar-eclipse"],
 			alias: ["cdrizzle","cdc"],
 			builds: [
 			{
@@ -1836,6 +1879,7 @@ const data = [
 			role: "ranged",
 			position: "middle",
 			element: ["grass"],
+			resonant: ["fragrant","frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -1875,6 +1919,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["grass"],
+			resonant: ["fragrant","frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -1900,6 +1945,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["grass"],
+			resonant: ["fragrant","frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -1939,6 +1985,7 @@ const data = [
 			role: "magic",
 			position: "rear",
 			element: ["earth"],
+			resonant: ["radiant-cheese","lunar-eclipse"],
 			alias: ["scc"],
 			builds: [
 			{
@@ -1978,6 +2025,7 @@ const data = [
 			role: "ranged",
 			position: "middle",
 			element: ["earth"],
+			resonant: ["radiant-cheese","lunar-eclipse","crossed-fates"],
 			alias: ["agcc","awgcc","awkgcc","igcc","gcawk","gci","gccawk","gcci","awakened immortal awk aw golden cheese gcheese gc gcc awakened cookie immortal awk aw"],
 			builds: [
 			{
@@ -2031,7 +2079,8 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["fire"],
-			alias: ["ntc"],
+			resonant: ["destructive","smithy"],
+			alias: ["ntiger","ntc"],
 			builds: [
 			{
 				title: "General",
@@ -2056,6 +2105,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["fire"],
+			resonant: ["destructive","smithy","crossed-fates"],
 			alias: ["bspice","bsc"],
 			builds: [
 			{
@@ -2095,6 +2145,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: ["wind"],
+			resonant: ["life-sprouting","ancient-root","heaven-splitter"],
 			alias: ["warcher","wac"],
 			builds: [
 			{
@@ -2162,6 +2213,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: ["moonkissed"],
 			alias: ["scoral","scc"],
 			builds: [
 			{
@@ -2201,6 +2253,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["cferret","cfc"],
 			builds: [
 			{
@@ -2282,6 +2335,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: [],
+			resonant: [],
 			alias: ["pblossom","pbc"],
 			builds: [
 			{
@@ -2307,6 +2361,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["darkness"],
+			resonant: ["gambit","heaven-splitter","lunar-eclipse","crossed-fates"],
 			alias: ["adcc","awdcc","awkdcc","dldcc","dcawk","dcdl","dccawk","dccdl","adcac","awdcac","awkdcac","dldcac","dcaawk","dcadl","dcacawk","dcacdl","awakened dragon lord awk aw dl dark cacao dcacao dca dcc dcac cookie awakened dragon lord awk aw dl"],
 			builds: [
 			{
@@ -2374,6 +2429,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: [],
+			resonant: ["verdigris"],
 			alias: ["chaetae","chc"],
 			builds: [
 			{
@@ -2413,6 +2469,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: [],
+			resonant: ["gambit","crossed-fates"],
 			alias: ["mflour","mfc"],
 			builds: [
 			{
@@ -2452,6 +2509,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["electricity"],
+			resonant: ["fuzzy-wuzzy","ancient-root","heaven-splitter"],
 			alias: ["sbringer","sbc"],
 			builds: [
 			{
@@ -2547,6 +2605,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["fire"],
+			resonant: ["smithy"],
 			alias: ["surchin","suc"],
 			builds: [
 			{
@@ -2572,6 +2631,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: ["unison"],
 			alias: ["ccc"],
 			builds: [
 			{
@@ -2597,6 +2657,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["steel","chaos"],
+			resonant: ["looming-dark","smithy","heaven-splitter"],
 			alias: ["brc"],
 			builds: [
 			{
@@ -2664,6 +2725,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["poison","grass"],
+			resonant: ["looming-dark","frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -2703,7 +2765,8 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["steel"],
-			alias: ["efaerie","efc"],
+			resonant: [],
+			alias: ["efaerie","efc","smithy"],
 			builds: [
 			{
 				title: "Tank 1",
@@ -2728,6 +2791,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["steel"],
+			resonant: ["verdigris","smithy"],
 			alias: ["mkc"],
 			builds: [
 			{
@@ -2767,6 +2831,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["grass"],
+			resonant: ["blooming","frost-herbalist"],
 			alias: ["sbell","sbc"],
 			builds: [
 			{
@@ -2792,6 +2857,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["grass"],
+			resonant: ["blooming","frost-herbalist","crossed-fates"],
 			alias: ["wlily","willy","wlc"],
 			builds: [
 			{
@@ -2873,6 +2939,7 @@ const data = [
 			role: "ambush",
 			position: "front",
 			element: ["wind"],
+			resonant: ["life-sprouting","heaven-splitter"],
 			alias: [],
 			builds: [
 			{
@@ -2940,6 +3007,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -2993,6 +3061,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: ["light"],
+			resonant: ["truthful","lunar-eclipse"],
 			alias: ["creme brulee cookie","cbrulee","cbc"],
 			builds: [
 			{
@@ -3032,6 +3101,7 @@ const data = [
 			role: "healing",
 			position: "front",
 			element: ["ice"],
+			resonant: ["frosted-crystal","frost-herbalist"],
 			alias: ["iyc"],
 			builds: [
 			{
@@ -3057,6 +3127,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["earth","fire","electricity"],
+			resonant: ["radiant-cheese","smithy","heaven-splitter","lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -3082,6 +3153,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["earth"],
+			resonant: ["radiant-cheese","sacred-vow","lunar-eclipse","unison"],
 			alias: [],
 			builds: [
 			{
@@ -3121,6 +3193,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["earth"],
+			resonant: ["radiant-cheese","lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -3160,6 +3233,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["earth"],
+			resonant: ["radiant-cheese","lunar-eclipse"],
 			alias: ["bcc"],
 			builds: [
 			{
@@ -3199,6 +3273,7 @@ const data = [
 			role: "ranged",
 			position: "middle",
 			element: ["earth"],
+			resonant: ["radiant-cheese","lunar-eclipse","crossed-fates"],
 			alias: ["gcheese","gcc"],
 			builds: [
 			{
@@ -3252,6 +3327,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: ["water","electricity"],
+			resonant: ["sea-salt","smithy","heaven-splitter"],
 			alias: ["fjellyfish","fjc"],
 			builds: [
 			{
@@ -3291,6 +3367,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["water"],
+			resonant: ["sea-salt","smithy"],
 			alias: ["ccoral","ccc"],
 			builds: [
 			{
@@ -3331,6 +3408,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["water"],
+			resonant: ["sea-salt","smithy"],
 			alias: ["pmint","ppmc","pmc"],
 			builds: [
 			{
@@ -3356,6 +3434,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["electricity"],
+			resonant: ["tropical-rock","heaven-splitter"],
 			alias: ["blemonade","blc"],
 			builds: [
 			{
@@ -3409,6 +3488,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["electricity"],
+			resonant: ["tropical-rock","heaven-splitter"],
 			alias: ["sglitter","sgc"],
 			builds: [
 			{
@@ -3448,6 +3528,7 @@ const data = [
 			role: "healing",
 			position: "middle",
 			element: [],
+			resonant: ["tropical-rock"],
 			alias: ["rstar","rsc"],
 			builds: [
 			{
@@ -3473,6 +3554,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: ["draconic"],
 			alias: ["sdragon","sdc"],
 			builds: [
 			{
@@ -3498,6 +3580,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: ["fire"],
+			resonant: ["draconic","smithy"],
 			alias: ["ttatin","ttc","4t"],
 			builds: [
 			{
@@ -3523,6 +3606,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["fire"],
+			resonant: ["draconic","smithy"],
 			alias: ["pdragon","pita dragon","pdc"],
 			builds: [
 			{
@@ -3576,6 +3660,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["poison"],
+			resonant: ["draconic","frost-herbalist"],
 			alias: ["rmargarine","rmc"],
 			builds: [
 			{
@@ -3615,6 +3700,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["light"],
+			resonant: ["trio","truthful","lunar-eclipse"],
 			alias: ["kamann","kac"],
 			builds: [
 			{
@@ -3682,6 +3768,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["poison"],
+			resonant: ["trio","frost-herbalist"],
 			alias: ["pjuice","pjc"],
 			builds: [
 			{
@@ -3749,6 +3836,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["fire"],
+			resonant: ["trio","smithy"],
 			alias: ["caprison cookie"],
 			builds: [
 			{
@@ -3788,6 +3876,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: [],
+			resonant: ["moonkissed"],
 			alias: ["sdust","sdc"],
 			builds: [
 			{
@@ -3827,6 +3916,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: [],
+			resonant: ["moonkissed"],
 			alias: ["space donut","sdoughnut","sdonut","sd"],
 			builds: [
 			{
@@ -3880,6 +3970,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["electricity"],
+			resonant: ["moonkissed","heaven-splitter"],
 			alias: ["bpie","bpc","bbpc"],
 			builds: [
 			{
@@ -3919,6 +4010,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: [],
+			resonant: ["moonkissed"],
 			alias: ["mway","mwc"],
 			builds: [
 			{
@@ -3986,6 +4078,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: [],
+			resonant: ["moonkissed","ancient-root"],
 			alias: ["mlight","mlc"],
 			builds: [
 			{
@@ -4025,6 +4118,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -4050,6 +4144,7 @@ const data = [
 			role: "bomber",
 			position: "front",
 			element: ["ice"],
+			resonant: ["frosted-crystal","frost-herbalist"],
 			alias: ["pcc","pcone"],
 			builds: [
 			{
@@ -4103,6 +4198,7 @@ const data = [
 			role: "ranged",
 			position: "middle",
 			element: ["ice"],
+			resonant: ["frosted-crystal","frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -4142,6 +4238,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: ["grass"],
+			resonant: ["frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -4167,6 +4264,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: [],
+			resonant: [],
 			alias: ["macaroon"],
 			builds: [
 			{
@@ -4192,6 +4290,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["steel","chaos"],
+			resonant: ["sacred-vow","looming-dark","smithy","heaven-splitter"],
 			alias: ["schwarzwalder","choco werehound brute","charles"],
 			builds: [
 			{
@@ -4273,6 +4372,7 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["bts","jk"],
 			builds: [
 			{
@@ -4296,6 +4396,7 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["bts"],
 			builds: [
 			{
@@ -4319,6 +4420,7 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["bts"],
 			builds: [
 			{
@@ -4342,6 +4444,7 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["bts"],
 			builds: [
 			{
@@ -4365,6 +4468,7 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["bts"],
 			builds: [
 			{
@@ -4388,6 +4492,7 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["bts"],
 			builds: [
 			{
@@ -4411,6 +4516,7 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["bts"],
 			builds: [
 			{
@@ -4434,6 +4540,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["cdiver","cdc"],
 			builds: [
 			{
@@ -4473,6 +4580,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["water"],
+			resonant: ["sea-salt","ancient-root","smithy"],
 			alias: ["bpearl","bpc"],
 			builds: [
 			{
@@ -4554,6 +4662,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["water"],
+			resonant: ["smithy"],
 			alias: ["ccaviar","ccc"],
 			builds: [
 			{
@@ -4607,6 +4716,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: ["fire"],
+			resonant: ["smithy"],
 			alias: ["cunicorn","cuc"],
 			builds: [
 			{
@@ -4632,6 +4742,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["light"],
+			resonant: ["truthful","sacred-vow","lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -4671,6 +4782,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -4696,6 +4808,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["darkness"],
+			resonant: ["lunar-eclipse"],
 			alias: ["oreo cookie","cchip","ccc"],
 			builds: [
 			{
@@ -4749,6 +4862,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["light"],
+			resonant: ["lunar-eclipse"],
 			alias: ["ccream","ccc"],
 			builds: [
 			{
@@ -4816,6 +4930,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["steel"],
+			resonant: ["draconic","passionate","smithy"],
 			alias: ["wberry","wbc"],
 			builds: [
 			{
@@ -4841,6 +4956,7 @@ const data = [
 			role: "ambush",
 			position: "rear",
 			element: ["grass"],
+			resonant: ["frost-herbalist"],
 			alias: ["cblossom","cbc"],
 			builds: [
 			{
@@ -4880,6 +4996,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["darkness","electricity"],
+			resonant: ["heaven-splitter","lunar-eclipse","crossed-fates"],
 			alias: ["dcacao","dcc","dcac"],
 			builds: [
 			{
@@ -4947,6 +5064,7 @@ const data = [
 			role: "ranged",
 			position: "front",
 			element: ["darkness"],
+			resonant: ["sacred-vow","lunar-eclipse","unison"],
 			alias: ["carrow","cac"],
 			builds: [
 			{
@@ -4986,6 +5104,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["poison"],
+			resonant: ["looming-dark","frost-herbalist","heaven-splitter"],
 			alias: [],
 			builds: [
 			{
@@ -5039,6 +5158,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["steel"],
+			resonant: ["smithy"],
 			alias: ["tktc"],
 			builds: [
 			{
@@ -5092,6 +5212,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -5117,6 +5238,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -5156,6 +5278,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["ice"],
+			resonant: ["frosted-crystal","ancient-root","frost-herbalist"],
 			alias: ["elsa cookie","fqueen","fqc"],
 			builds: [
 			{
@@ -5195,6 +5318,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["grass"],
+			resonant: ["frosted-crystal","frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -5220,6 +5344,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["darkness"],
+			resonant: ["lunar-eclipse"],
 			alias: ["ppc"],
 			builds: [
 			{
@@ -5259,6 +5384,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: ["electricity"],
+			resonant: ["heaven-splitter"],
 			alias: ["tgummy","tgc"],
 			builds: [
 			{
@@ -5326,6 +5452,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["fire"],
+			resonant: ["smithy"],
 			alias: ["msc"],
 			builds: [
 			{
@@ -5365,6 +5492,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -5390,6 +5518,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -5415,6 +5544,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: [],
+			resonant: [],
 			alias: ["mrabbit","mrc"],
 			builds: [
 			{
@@ -5468,6 +5598,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["steel"],
+			resonant: ["draconic","passionate","smithy","crossed-fates"],
 			alias: ["hberry","hbc"],
 			builds: [
 			{
@@ -5535,6 +5666,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["steel"],
+			resonant: ["passionate","smithy"],
 			alias: ["rberry","rbc"],
 			builds: [
 			{
@@ -5602,6 +5734,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: ["tropical-rock"],
 			alias: [],
 			builds: [
 			{
@@ -5641,6 +5774,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["water"],
+			resonant: ["sea-salt","smithy"],
 			alias: ["sshark","ssc"],
 			builds: [
 			{
@@ -5680,6 +5814,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["water"],
+			resonant: ["smithy"],
 			alias: ["squink","sic"],
 			builds: [
 			{
@@ -5719,11 +5854,12 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: ["grass"],
+			resonant: ["frost-herbalist"],
 			alias: [],
 			builds: [
 			{
 				title: "General",
-				beascuitImgs: ["img/base/support.png"],
+				beascuitImgs: ["img/base/support.png","frost-herbalist"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
 					"img/tart/chocolate.png",
@@ -5744,6 +5880,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["water"],
+			resonant: ["sea-salt","ancient-root","smithy"],
 			alias: ["sfairy","sfc"],
 			builds: [
 			{
@@ -5811,6 +5948,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["water"],
+			resonant: ["tropical-rock","smithy"],
 			alias: [],
 			builds: [
 			{
@@ -5850,6 +5988,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["darkness"],
+			resonant: ["lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -5903,6 +6042,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: ["grass"],
+			resonant: ["frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -5942,6 +6082,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["darkness"],
+			resonant: ["looming-dark","heaven-splitter","lunar-eclipse"],
 			alias: ["rvelvet","rvc"],
 			builds: [
 			{
@@ -5981,6 +6122,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: ["wind"],
+			resonant: ["life-sprouting","heaven-splitter"],
 			alias: [],
 			builds: [
 			{
@@ -6034,6 +6176,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: [],
+			resonant: [],
 			alias: ["screpe","scc"],
 			builds: [
 			{
@@ -6073,6 +6216,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: [],
+			resonant: ["truthful","lunar-eclipse","crossed-fates"],
 			alias: ["pvanilla","pvc"],
 			builds: [
 			{
@@ -6126,6 +6270,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["darkness"],
+			resonant: ["radiant-cheese","lunar-eclipse"],
 			alias: ["braisin","brc"],
 			builds: [
 			{
@@ -6179,6 +6324,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["earth"],
+			resonant: ["lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -6204,6 +6350,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["light"],
+			resonant: ["lunar-eclipse"],
 			alias: ["cpuff","cpc"],
 			builds: [
 			{
@@ -6243,6 +6390,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["earth"],
+			resonant: ["lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -6282,6 +6430,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["wind"],
+			resonant: ["life-sprouting","heaven-splitter"],
 			alias: [],
 			builds: [
 			{
@@ -6321,6 +6470,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: ["fire"],
+			resonant: ["smithy"],
 			alias: [],
 			builds: [
 			{
@@ -6374,6 +6524,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -6413,6 +6564,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["earth"],
+			resonant: ["lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -6480,6 +6632,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -6519,6 +6672,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["light"],
+			resonant: ["destined","lunar-eclipse"],
 			alias: ["maddy"],
 			builds: [
 			{
@@ -6586,6 +6740,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["darkness","poison","chaos"],
+			resonant: ["looming-dark","heaven-splitter","lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -6625,6 +6780,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["poison","chaos"],
+			resonant: ["looming-dark","frost-herbalist","heaven-splitter"],
 			alias: ["pmushroom","shroomie","pmc"],
 			builds: [
 			{
@@ -6664,6 +6820,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -6717,6 +6874,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["grass"],
+			resonant: ["frost-herbalist"],
 			alias: ["pyam","pyc"],
 			builds: [
 			{
@@ -6784,6 +6942,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -6809,6 +6968,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: ["grass"],
+			resonant: ["frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -6848,6 +7008,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: ["chaos"],
+			resonant: ["looming-dark","heaven-splitter"],
 			alias: [],
 			builds: [
 			{
@@ -6873,6 +7034,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: ["fire"],
+			resonant: ["smithy"],
 			alias: ["cpepper","cpc"],
 			builds: [
 			{
@@ -6912,6 +7074,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["steel"],
+			resonant: ["smithy"],
 			alias: [],
 			builds: [
 			{
@@ -6965,6 +7128,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: ["light"],
+			resonant: ["truthful","lunar-eclipse"],
 			alias: [],
 			builds: [
 			{
@@ -7004,6 +7168,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["darkness"],
+			resonant: ["lunar-eclipse"],
 			alias: ["dchoco","dcc"],
 			builds: [
 			{
@@ -7057,6 +7222,7 @@ const data = [
 			role: "ambush",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7096,6 +7262,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7135,6 +7302,7 @@ const data = [
 			role: "support",
 			position: "middle",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7160,6 +7328,7 @@ const data = [
 			role: "bomber",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["gball","gbc"],
 			builds: [
 			{
@@ -7185,6 +7354,7 @@ const data = [
 			role: "support",
 			position: "rear",
 			element: ["wind"],
+			resonant: ["life-sprouting","heaven-splitter"],
 			alias: ["mchoco","mcc"],
 			builds: [
 			{
@@ -7210,6 +7380,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["steel"],
+			resonant: ["tropical-rock","smithy"],
 			alias: ["wwolf","wwc"],
 			builds: [
 			{
@@ -7263,6 +7434,7 @@ const data = [
 			role: "magic",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: ["bberry","bbc"],
 			builds: [
 			{
@@ -7302,6 +7474,7 @@ const data = [
 			role: "ranged",
 			position: "rear",
 			element: [],
+			resonant: ["passionate"],
 			alias: ["tlily","tlc"],
 			builds: [
 			{
@@ -7327,6 +7500,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7352,6 +7526,7 @@ const data = [
 			role: "ambush",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7377,6 +7552,7 @@ const data = [
 			role: "bomber",
 			position: "middle",
 			element: ["poison"],
+			resonant: ["frost-herbalist"],
 			alias: [],
 			builds: [
 			{
@@ -7416,6 +7592,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["ice"],
+			resonant: ["frosted-crystal","frost-herbalist"],
 			alias: ["ssugar","ssc"],
 			builds: [
 			{
@@ -7455,6 +7632,7 @@ const data = [
 			role: "bomber",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7480,6 +7658,7 @@ const data = [
 			role: "magic",
 			position: "middle",
 			element: ["electricity"],
+			resonant: ["heaven-splitter"],
 			alias: [],
 			builds: [
 			{
@@ -7519,6 +7698,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: ["steel"],
+			resonant: ["smithy"],
 			alias: [],
 			builds: [
 			{
@@ -7586,6 +7766,7 @@ const data = [
 			role: "healing",
 			position: "rear",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7611,6 +7792,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["steel"],
+			resonant: ["smithy"],
 			alias: [],
 			builds: [
 			{
@@ -7664,6 +7846,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7703,6 +7886,7 @@ const data = [
 			role: "ambush",
 			position: "middle",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7728,6 +7912,7 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: [],
+			resonant: [],
 			alias: [],
 			builds: [
 			{
@@ -7781,6 +7966,7 @@ const data = [
 			role: "charge",
 			position: "front",
 			element: [],
+			resonant: [],
 			alias: ["gbrave","gb"],
 			builds: [
 			{

@@ -95,7 +95,7 @@ nav {
 	display: grid;
 	gap: 5px 15px;
 	flex: 1;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .dropdown {

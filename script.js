@@ -7,6 +7,7 @@ const fRarity = document.getElementById("f-rarity");
 const fRole = document.getElementById("f-role");
 const fPosition = document.getElementById("f-position");
 const fElement = document.getElementById("f-element");
+const fResonant = document.getElementById("f-resonant");
 
 const clear = document.getElementById("clear");
 
@@ -65,7 +66,8 @@ const filters = {
 	rarity: "all",
 	role: "all",
 	position: "all",
-	element: "all"
+	element: "all",
+	resonant: "all"
 };
 
 function renderActiveStates() {
@@ -127,6 +129,8 @@ function filter() {
 	const cl = filters.role;
 	const p = filters.position;
 	const e = filters.element;
+	const res = filters.resonant;
+	
 
 	const splitWords = str =>
 		str.toLowerCase().split(/\s+/);
@@ -160,7 +164,8 @@ function filter() {
 			(r === "all" || c.rarity === r) &&
 			(cl === "all" || c.role === cl) &&
 			(p === "all" || c.position === p) &&
-			(e === "all" || (c.element || []).includes(e));
+			(e === "all" || (c.element || []).includes(e)) &&
+			(res === "all" || (c.resonant || []).includes(res));
 
 		return textMatch && match;
 	});
