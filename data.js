@@ -607,7 +607,7 @@ const data = [
 				requirement: ""
 			},{
 				title: "PVE",
-				beascuitImgs: ["img/base/ambush.png","img/core/ambush06.png"],
+				beascuitImgs: ["img/base/ambush.png","img/core/ambush05.png"],
 				lines: ["4 Steel DMG"],
 				toppingsImgs: [
 					"img/tart/chocolate.png",
@@ -2037,8 +2037,21 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
-			alias: ["jk"],
+			alias: ["bts","jk"],
 			builds: [
+			{
+				title: "General",
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "V Cookie",
@@ -2047,8 +2060,21 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
-			alias: [],
+			alias: ["bts"],
 			builds: [
+			{
+				title: "General",
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Jin Cookie",
@@ -2057,8 +2083,21 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
-			alias: [],
+			alias: ["bts"],
 			builds: [
+			{
+				title: "General",
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "j-hope Cookie",
@@ -2067,8 +2106,21 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
-			alias: [],
+			alias: ["bts"],
 			builds: [
+			{
+				title: "General",
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "SUGA Cookie",
@@ -2077,8 +2129,21 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
-			alias: [],
+			alias: ["bts"],
 			builds: [
+			{
+				title: "General",
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Jin Cookie",
@@ -2087,8 +2152,21 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
-			alias: [],
+			alias: ["bts"],
 			builds: [
+			{
+				title: "General",
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "RM Cookie",
@@ -2097,8 +2175,21 @@ const data = [
 			role: "bts",
 			position: "rear",
 			element: [],
-			alias: [],
+			alias: ["bts"],
 			builds: [
+			{
+				title: "General",
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Candy Diver Cookie",
@@ -2109,6 +2200,35 @@ const data = [
 			element: [],
 			alias: ["cdiver","cdc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["2 Cooldown","2 Amplify Buff"],
+				toppingsImgs: [
+					"img/tart/candy.png",
+					"img/topping/candy.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			},{
+				title: "General (Noob)",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/candy.png",
+					"img/topping/candy.png",
+					"img/topping/candy.png",
+					"img/topping/candy.png",
+					"img/topping/candy.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Black Pearl Cookie",
@@ -2119,6 +2239,77 @@ const data = [
 			element: ["water"],
 			alias: ["bpearl","bpc"],
 			builds: [
+			{
+				title: "PVE",
+				beascuitImgs: ["img/base/ambush.png","img/core/ambush04.png"],
+				lines: ["4 Water DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVE (Noob)",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["DMG Resist","Cooldown","ATK"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["DMG Resist","Cooldown","ATK"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["DMG Resist","Cooldown","ATK"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Captain Caviar Cookie",
@@ -2129,6 +2320,49 @@ const data = [
 			element: ["water"],
 			alias: ["ccaviar","ccc"],
 			builds: [
+			{
+				title: "PVE",
+				beascuitImgs: ["img/base/bomber.png","img/core/bomber04.png"],
+				lines: ["4 Water DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVE (Noob)",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["DMG Resist","Cooldown","ATK"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Cream Unicorn Cookie",
@@ -2139,6 +2373,21 @@ const data = [
 			element: ["fire"],
 			alias: ["cunicorn","cuc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/healing.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Financier Cookie",
@@ -2149,6 +2398,21 @@ const data = [
 			element: ["light"],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Oyster Cookie",
@@ -2159,6 +2423,21 @@ const data = [
 			element: [],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Crunchy Chip Cookie",
@@ -2169,6 +2448,49 @@ const data = [
 			element: ["darkness"],
 			alias: ["oreo cookie","cchip","ccc"],
 			builds: [
+			{
+				title: "DPS",
+				beascuitImgs: ["img/base/charge.png","img/core/charge02.png"],
+				lines: ["4 Darkness DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "ATK SPD",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 ATK SPD"],
+				toppingsImgs: [
+					"img/tart/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png"
+				],
+				substats: ["ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Clotted Cream Cookie",
@@ -2179,6 +2501,63 @@ const data = [
 			element: ["light"],
 			alias: ["ccream","ccc"],
 			builds: [
+			{
+				title: "PVE",
+				beascuitImgs: ["img/base/magic.png","img/core/magic04.png"],
+				lines: ["4 Light DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVE (Noob)",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "Light Cage",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown","ATK"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Wildberry Cookie",
@@ -2189,6 +2568,21 @@ const data = [
 			element: ["steel"],
 			alias: ["wberry","wbc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/peanut.png",
+					"img/topping/peanut.png",
+					"img/topping/peanut.png",
+					"img/topping/peanut.png",
+					"img/topping/peanut.png",
+					"img/topping/peanut.png"
+				],
+				substats: ["DMG Resist","HP","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Cherry Blossom Cookie",
@@ -2199,6 +2593,35 @@ const data = [
 			element: ["grass"],
 			alias: ["cblossom","cbc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/ambush.png","img/core/ambush06.png"],
+				lines: ["4 Grass DMG"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "General (Noob)",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Dark Cacao Cookie",
@@ -2209,6 +2632,49 @@ const data = [
 			element: ["darkness","electricity"],
 			alias: ["dcacao","dcc","dcac"],
 			builds: [
+			{
+				title: "DPS",
+				beascuitImgs: ["img/base/charge.png","img/core/charge02.png"],
+				lines: ["4 Dark DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "Tank",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Caramel Arrow Cookie",
@@ -2219,6 +2685,35 @@ const data = [
 			element: ["darkness"],
 			alias: ["carrow","cac"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/ranged.png","img/core/ranged02.png"],
+				lines: ["4 Darkness DMG"],
+				toppingsImgs: [
+					"img/tart/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["ATK","CRIT%","ATK SPD"],
+				requirement: ""
+			},{
+				title: "General (Noob)",
+				beascuitImgs: ["img/base/ranged.png"],
+				lines: ["4 ATK SPD"],
+				toppingsImgs: [
+					"img/tart/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["ATK","CRIT%","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Affogato Cookie",
@@ -2229,6 +2724,49 @@ const data = [
 			element: ["poison"],
 			alias: [],
 			builds: [
+			{
+				title: "Support",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS",
+				beascuitImgs: ["img/base/bomber.png","img/core/bomber04.png"],
+				lines: ["4 Poison DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Tea Knight Cookie",
@@ -2239,6 +2777,49 @@ const data = [
 			element: ["steel"],
 			alias: ["tktc"],
 			builds: [
+			{
+				title: "PVP",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","ATK","ATK SPD"],
+				requirement: ""
+			},{
+				title: "PVE",
+				beascuitImgs: ["img/base/charge.png","img/core/charge05.png"],
+				lines: ["4 Steel DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVE (Noob)",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Eclair Cookie",
@@ -2249,6 +2830,21 @@ const data = [
 			element: [],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Cocoa Cookie",
@@ -2259,6 +2855,21 @@ const data = [
 			element: [],
 			alias: [],
 			builds: [
+			{
+				title: "Tank",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Frost Queen Cookie",
@@ -2269,6 +2880,35 @@ const data = [
 			element: ["ice"],
 			alias: ["elsa cookie","fqueen","fqc"],
 			builds: [
+			{
+				title: "DPS",
+				beascuitImgs: ["img/base/magic.png","img/core/bomber05.png"],
+				lines: ["4 Ice DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Cotton Cookie",
@@ -2279,6 +2919,21 @@ const data = [
 			element: ["grass"],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Pumpkin Pie Cookie",
@@ -2289,6 +2944,35 @@ const data = [
 			element: ["darkness"],
 			alias: ["ppc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/magic.png","img/core/magic02.png"],
+				lines: ["4 Darkness DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","ATK SPD"],
+				requirement: ""
+			},{
+				title: "General (Noob)",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Twizzly Gummy Cookie",
@@ -2299,6 +2983,63 @@ const data = [
 			element: ["electricity"],
 			alias: ["tgummy","tgc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/ranged.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK SPD"],
+				requirement: ""
+			},{
+				title: "ATK SPD",
+				beascuitImgs: ["img/base/ranged.png"],
+				lines: ["4 ATK SPD"],
+				toppingsImgs: [
+					"img/tart/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK SPD"],
+				requirement: ""
+			},{
+				title: "Demon Distress",
+				beascuitImgs: ["img/base/ranged.png"],
+				lines: ["4 ATK SPD"],
+				toppingsImgs: [
+					"img/tart/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK SPD"],
+				requirement: ""
+			},{
+				title: "Living Abyss",
+				beascuitImgs: ["img/base/ranged_tainted.png","img/core/ranged02.png"],
+				lines: ["20.0% Electricity DMG","3 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK SPD"],
+				requirement: "41.797% Cooldown"
+			}
 	]},
 	{
 			name: "Mala Sauce Cookie",
@@ -2309,6 +3050,35 @@ const data = [
 			element: ["fire"],
 			alias: ["msc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/charge.png","img/core/charge03.png"],
+				lines: ["4 Fire DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","ATK SPD"],
+				requirement: ""
+			},{
+				title: "General (Noob)",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Tails Cookie",
@@ -2319,6 +3089,21 @@ const data = [
 			element: [],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Sonic Cookie",
@@ -2329,6 +3114,21 @@ const data = [
 			element: [],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Moon Rabbit Cookie",
@@ -2339,6 +3139,35 @@ const data = [
 			element: [],
 			alias: ["mrabbit","mrc"],
 			builds: [
+			{
+				title: "DPS",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "Tank",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Hollyberry Cookie",
@@ -2349,6 +3178,49 @@ const data = [
 			element: ["steel"],
 			alias: ["hberry","hbc"],
 			builds: [
+			{
+				title: "Tank",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			},{
+				title: "DPS",
+				beascuitImgs: ["img/base/defense.png","img/core/defense05.png"],
+				lines: ["4 Steel DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Raspberry Cookie",
@@ -2359,6 +3231,49 @@ const data = [
 			element: ["steel"],
 			alias: ["rberry","rbc"],
 			builds: [
+			{
+				title: "DPS",
+				beascuitImgs: ["img/base/charge.png","img/core/charge05.png"],
+				lines: ["4 Steel DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "Tank",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Parfait Cookie",
@@ -2369,6 +3284,35 @@ const data = [
 			element: [],
 			alias: [],
 			builds: [
+			{
+				title: "PVE",
+				beascuitImgs: ["img/base/healing.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/healing.png"],
+				lines: ["4 DMG Resist"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Sorbet Shark Cookie",
@@ -2379,6 +3323,35 @@ const data = [
 			element: ["water"],
 			alias: ["sshark","ssc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/ambush.png","img/core/ambush04.png"],
+				lines: ["4 Water DMG"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "General (Noob)",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Squid Ink Cookie",
@@ -2389,6 +3362,35 @@ const data = [
 			element: ["water"],
 			alias: ["squink","sic"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/magic.png","img/core/magic04.png"],
+				lines: ["4 Water DMG"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "General (Noob)",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Lilac Cookie",
@@ -2399,6 +3401,21 @@ const data = [
 			element: ["grass"],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Sea Fairy Cookie",
@@ -2409,6 +3426,63 @@ const data = [
 			element: ["water"],
 			alias: ["sfairy","sfc"],
 			builds: [
+			{
+				title: "Support",
+				beascuitImgs: ["img/base/bomber.png","img/core/bomber04.png"],
+				lines: ["4 Water DMG"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS",
+				beascuitImgs: ["img/base/bomber.png","img/core/bomber04.png"],
+				lines: ["4 Water DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "Stunlock",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Mango Cookie",
@@ -2419,6 +3493,35 @@ const data = [
 			element: ["water"],
 			alias: [],
 			builds: [
+			{
+				title: "DPS",
+				beascuitImgs: ["img/base/magic.png","img/core/magic04.png"],
+				lines: ["4 Water DMG"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Devil Cookie",
@@ -2429,6 +3532,49 @@ const data = [
 			element: ["darkness"],
 			alias: [],
 			builds: [
+			{
+				title: "PVE",
+				beascuitImgs: ["img/base/magic.png","img/core/magic02.png"],
+				lines: ["4 Dark DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVE (Noob)",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["DMG Resist","Cooldown","ATK"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Fig Cookie",
@@ -2439,6 +3585,35 @@ const data = [
 			element: ["grass"],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/support.png","img/core/support06.png"],
+				lines: ["4 Grass DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "General (Noob)",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Red Velvet Cookie",
@@ -2449,6 +3624,21 @@ const data = [
 			element: ["darkness"],
 			alias: ["rvelvet","rvc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 DMG Resist"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Pastry Cookie",
@@ -2459,6 +3649,49 @@ const data = [
 			element: ["wind"],
 			alias: [],
 			builds: [
+			{
+				title: "PVE DPS",
+				beascuitImgs: ["img/base/ranged.png","img/core/ranged06.png"],
+				lines: ["4 Wind DMG"],
+				toppingsImgs: [
+					"img/tart/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["CRIT%","ATK","ATK SPD"],
+				requirement: ""
+			},{
+				title: "PVE DPS (Noob)",
+				beascuitImgs: ["img/base/ranged.png"],
+				lines: ["4 ATK SPD"],
+				toppingsImgs: [
+					"img/tart/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["CRIT%","ATK","ATK SPD"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/ranged.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["DMG Resist","ATK SPD","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Strawberry Crepe Cookie",
@@ -2469,6 +3702,21 @@ const data = [
 			element: [],
 			alias: ["screpe","scc"],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/defense.png"],
+				lines: ["4 DMG Resist"],
+				toppingsImgs: [
+					"img/tart/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png",
+					"img/topping/almond.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Pure Vanilla Cookie",
@@ -2479,6 +3727,35 @@ const data = [
 			element: [],
 			alias: ["pvanilla","pvc"],
 			builds: [
+			{
+				title: "PVE",
+				beascuitImgs: ["img/base/healing.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/healing.png"],
+				lines: ["4 DMG Resist"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Black Raisin Cookie",
@@ -2489,6 +3766,49 @@ const data = [
 			element: ["darkness"],
 			alias: ["braisin","brc"],
 			builds: [
+			{
+				title: "PVE",
+				beascuitImgs: ["img/base/ambush.png","img/core/ambush03.png"],
+				lines: ["4 Dark DMG"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK"],
+				requirement: ""
+			},{
+				title: "PVE (Noob)",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK"],
+				requirement: ""
+			},{
+				title: "PVP",
+				beascuitImgs: ["img/base/ambush.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["DMG Resist","Cooldown","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Almond Cookie",
@@ -2499,6 +3819,21 @@ const data = [
 			element: ["earth"],
 			alias: [],
 			builds: [
+			{
+				title: "General",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Cream Puff Cookie",
@@ -2509,6 +3844,35 @@ const data = [
 			element: ["light"],
 			alias: ["cpuff","cpc"],
 			builds: [
+			{
+				title: "3s Start",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK"],
+				requirement: "50.0% CRIT% (Start), 27.083% Cooldown"
+			},{
+				title: "Living Abyss",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 HP"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/peanut.png",
+					"img/topping/peanut.png",
+					"img/topping/peanut.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK"],
+				requirement: "50.0% CRIT% (Start), 14.063% Cooldown, 1.267x Wind Archer's HP"
+			}
 	]},
 	{
 			name: "Latte Cookie",
@@ -2519,6 +3883,35 @@ const data = [
 			element: ["earth"],
 			alias: [],
 			builds: [
+			{
+				title: "DPS",
+				beascuitImgs: ["img/base/magic.png","img/core/magic03.png"],
+				lines: ["4 Earth DMG"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "DPS (Noob)",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/raspberry.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			}
 	]},
 	{
 			name: "Kumiho Cookie",
@@ -2529,6 +3922,35 @@ const data = [
 			element: ["wind"],
 			alias: [],
 			builds: [
+			{
+				title: "Charm",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
+			},{
+				title: "2s Start",
+				beascuitImgs: ["img/base/charge.png"],
+				lines: ["3 DMG Resist","1 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["DMG Resist","Cooldown"],
+				requirement: "40.476% Cooldown"
+			}
 	]},
 	{
 			name: "Rye Cookie",
@@ -3118,7 +4540,7 @@ const data = [
 				requirement: ""
 			},{
 				title: "DPS",
-				beascuitImgs: ["img/base/defense.png","img/core/defense06.png"],
+				beascuitImgs: ["img/base/defense.png","img/core/defense05.png"],
 				lines: ["4 Steel DMG"],
 				toppingsImgs: [
 					"img/tart/raspberry.png",
@@ -3402,7 +4824,7 @@ const data = [
 			builds: [
 			{
 				title: "PVE",
-				beascuitImgs: ["img/base/charge.png","img/core/charge06.png"],
+				beascuitImgs: ["img/base/charge.png","img/core/charge05.png"],
 				lines: ["4 Steel DMG"],
 				toppingsImgs: [
 					"img/tart/raspberry.png",
@@ -3711,7 +5133,7 @@ const data = [
 			builds: [
 			{
 				title: "General",
-				beascuitImgs: ["img/base/charge.png","img/core/charge06.png"],
+				beascuitImgs: ["img/base/charge.png","img/core/charge05.png"],
 				lines: ["4 Steel DMG"],
 				toppingsImgs: [
 					"img/tart/raspberry.png",

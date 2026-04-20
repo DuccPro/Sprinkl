@@ -29,29 +29,36 @@ function showDetails(c) {
 
 			<div class="gear">
 
+				${b.beascuitImgs?.length ? `
 				<div class="beascuit">
 					${b.beascuitImgs.map(i => `<img src="${i}">`).join("")}
 				</div>
+				` : ""}
 
+				${b.lines?.length ? `
 				<ul class="lines">
 					${b.lines.map(l => `<li>${l}</li>`).join("")}
 				</ul>
+				` : ""}
 
+				${b.toppingsImgs?.length ? `
 				<div class="toppings">
 					${b.toppingsImgs.map(i => `<img src="${i}">`).join("")}
 				</div>
+				` : ""}
 
+				${b.substats?.length ? `
 				<ul class="substats">
 					${b.substats.map(s => `<li>${s}</li>`).join("")}
 				</ul>
+				` : ""}
 
 			</div>
 
-			<p>${b.requirement}</p>
+			${b.requirement ? `<p>${b.requirement}</p>` : ""}
 		</div>
 	`).join("")}
 	`;
-	
 }
 
 const filters = {
