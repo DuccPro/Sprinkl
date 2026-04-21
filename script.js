@@ -204,7 +204,11 @@ function filter() {
 			(!filters.rarity.length || filters.rarity.includes(c.rarity)) &&
 			(!filters.role.length || filters.role.includes(c.role)) &&
 			(!filters.position.length || filters.position.includes(c.position)) &&
-			(!filters.element.length || (c.element || []).some(e => filters.element.includes(e))) &&
+			(
+				!filters.element.length ||
+				(c.element && c.element.some(e => filters.element.includes(e))) ||
+				(filters.element.includes("none") && (!c.element || c.element.length === 0))
+			) &&
 			(!filters.resonant.length || (c.resonant || []).some(r => filters.resonant.includes(r)));
 
 		return textMatch && match;
