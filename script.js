@@ -2,13 +2,6 @@ const grid = document.getElementById("grid");
 const details = document.getElementById("details");
 
 const search = document.getElementById("search");
-
-const fRarity = document.getElementById("f-rarity");
-const fRole = document.getElementById("f-role");
-const fPosition = document.getElementById("f-position");
-const fElement = document.getElementById("f-element");
-const fResonant = document.getElementById("f-resonant");
-
 const clear = document.getElementById("clear");
 
 function renderGrid(list) {
@@ -62,42 +55,86 @@ function showDetails(c) {
 	`;
 }
 
+/*filter*/
+
 const filters = {
-	rarity: "all",
-	role: "all",
-	position: "all",
-	element: "all",
-	resonant: "all"
+	rarity: [],
+	role: [],
+	position: [],
+	element: [],
+	resonant: []
 };
 
 function renderActiveStates() {
 	document.querySelectorAll(".dropdown").forEach(drop => {
 		const key = drop.dataset.key;
-		const value = filters[key];
+		const values = filters[key];
 
 		const options = drop.querySelectorAll(".option");
 		const header = drop.querySelector(".dropdown-header");
 
 		options.forEach(opt => {
-			opt.classList.toggle("active", opt.dataset.value === value);
+			opt.classList.toggle(
+				"active",
+				values.includes(opt.dataset.value)
+			);
 		});
 
-		const activeOpt = [...options].find(o => o.dataset.value === value);
-
-		if (activeOpt) {
-			header.innerHTML = activeOpt.innerHTML;
-		} else {
-			header.textContent = key.charAt(0).toUpperCase() + key.slice(1);
+		if (!values.length) {
+			header.textContent =
+				key.charAt(0).toUpperCase() + key.slice(1);
+			return;
 		}
+
+		const selectedOptions = [...options].filter(opt =>
+			values.includes(opt.dataset.value)
+		);
+
+		if (selectedOptions.length > 1) {
+			const displayCount = Math.min(3, selectedOptions.length);
+
+			const icons = selectedOptions
+				.slice(0, displayCount)
+				.map(opt => {
+					const img = opt.querySelector(".icon img");
+					return img
+						? `<div class="icon"><img src="${img.src}"></div>`
+						: "";
+				})
+				.join("");
+
+			const more = selectedOptions.length > 3
+				? `<span class="elipsis">...</span>`
+				: "";
+
+			header.innerHTML = `
+				<span class="icon-group">${icons}</span>
+				${more}
+				<span>${selectedOptions.length} Selected</span>
+			`;
+			return;
+		}
+
+		const opt = selectedOptions[0];
+		const img = opt.querySelector(".icon img");
+		const text = opt.textContent.trim();
+
+		header.innerHTML = `
+			<span class="icon-group">
+				${img ? `<div class="icon"><img src="${img.src}"></div>` : ""}
+			</span>
+			<span>${text}</span>
+		`;
 	});
 }
 
+/*dropdown*/
+
 document.querySelectorAll(".dropdown").forEach(drop => {
 	const key = drop.dataset.key;
-	const header = drop.querySelector(".dropdown-header");
 	const options = drop.querySelectorAll(".option");
 
-	header.onclick = () => {
+	drop.querySelector(".dropdown-header").onclick = () => {
 		document.querySelectorAll(".dropdown").forEach(d => {
 			if (d !== drop) d.classList.remove("open");
 		});
@@ -106,7 +143,15 @@ document.querySelectorAll(".dropdown").forEach(drop => {
 
 	options.forEach(opt => {
 		opt.onclick = () => {
-			filters[key] = opt.dataset.value || "all";
+			const val = opt.dataset.value;
+
+			if (!val) {
+				filters[key] = [];
+			} else {
+				const i = filters[key].indexOf(val);
+				if (i === -1) filters[key].push(val);
+				else filters[key].splice(i, 1);
+			}
 
 			drop.classList.remove("open");
 
@@ -122,15 +167,10 @@ document.addEventListener("click", (e) => {
 	}
 });
 
+/*search*/
+
 function filter() {
 	const q = (search.value || "").toLowerCase().trim();
-
-	const r = filters.rarity;
-	const cl = filters.role;
-	const p = filters.position;
-	const e = filters.element;
-	const res = filters.resonant;
-	
 
 	const splitWords = str =>
 		str.toLowerCase().split(/\s+/);
@@ -161,11 +201,11 @@ function filter() {
 			aliases.some(a => matchesQuery(a));
 
 		const match =
-			(r === "all" || c.rarity === r) &&
-			(cl === "all" || c.role === cl) &&
-			(p === "all" || c.position === p) &&
-			(e === "all" || (c.element || []).includes(e)) &&
-			(res === "all" || (c.resonant || []).includes(res));
+			(!filters.rarity.length || filters.rarity.includes(c.rarity)) &&
+			(!filters.role.length || filters.role.includes(c.role)) &&
+			(!filters.position.length || filters.position.includes(c.position)) &&
+			(!filters.element.length || (c.element || []).some(e => filters.element.includes(e))) &&
+			(!filters.resonant.length || (c.resonant || []).some(r => filters.resonant.includes(r)));
 
 		return textMatch && match;
 	});
@@ -173,17 +213,20 @@ function filter() {
 	renderGrid(out);
 }
 
+/*clear*/
+
 search.addEventListener("input", filter);
 
-document.getElementById("clear").onclick = () => {
+clear.onclick = () => {
 	search.value = "";
 
-	Object.keys(filters).forEach(k => filters[k] = "all");
+	Object.keys(filters).forEach(k => filters[k] = []);
 
 	renderActiveStates();
 	filter();
 };
 
+/*init*/
 renderActiveStates();
 renderGrid(data);
 

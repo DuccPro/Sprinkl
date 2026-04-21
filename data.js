@@ -2765,8 +2765,8 @@ const data = [
 			role: "defense",
 			position: "front",
 			element: ["steel"],
-			resonant: [],
-			alias: ["efaerie","efc","smithy"],
+			resonant: ["smithy"],
+			alias: ["efaerie","efc"],
 			builds: [
 			{
 				title: "Tank 1",
