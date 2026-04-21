@@ -1530,6 +1530,20 @@ const data = [
 				],
 				substats: ["CRIT%","ATK"],
 				requirement: ""
+			},{
+				title: "Stunlock",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
 			}
 	]},
 	{
@@ -1746,11 +1760,25 @@ const data = [
 				requirement: ""
 			},{
 				title: "General 2",
-				beascuitImgs: ["img/base/support04.png"],
+				beascuitImgs: ["img/base/support04.png","img/core/support04.png"],
 				lines: ["4 Poison DMG"],
 				toppingsImgs: [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
+					"img/topping/raspberry.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png"
+				],
+				substats: ["Cooldown","CRIT%","ATK"],
+				requirement: ""
+			},{
+				title: "General 3",
+				beascuitImgs: ["img/base/support04.png","img/core/support04.png"],
+				lines: ["4 Poison DMG"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
 					"img/topping/raspberry.png",
 					"img/topping/apple_jelly.png",
 					"img/topping/apple_jelly.png",
@@ -3458,6 +3486,20 @@ const data = [
 				],
 				substats: ["DMG Resist","Cooldown","ATK SPD"],
 				requirement: ""
+			},{
+				title: "General 3",
+				beascuitImgs: ["img/base/support.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
+				requirement: ""
 			}
 	]},
 	{
@@ -3520,12 +3562,26 @@ const data = [
 					"img/topping/apple_jelly.png",
 					"img/topping/apple_jelly.png",
 					"img/topping/apple_jelly.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: "35.0% Cooldown"
+			},{
+				title: "General 2",
+				beascuitImgs: ["img/base/healing.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
+					"img/topping/apple_jelly.png",
 					"img/topping/apple_jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General 2",
+				title: "General 3",
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3539,19 +3595,19 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General 3",
+				title: "General 4",
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/raspberry.png",
 					"img/topping/apple_jelly.png",
 					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple_jelly.png",
+					"img/topping/chocolate.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
-				requirement: ""
+				requirement: "35.0% Cooldown"
 			}
 	]},
 	{
