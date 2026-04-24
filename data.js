@@ -79,7 +79,7 @@ const data = [
 	]},
 	{
 			name: "Sugar Swan Cookie",
-			icon: "img/card/sugar_swan.png",
+			icon: "img/card/sugar-swan.png",
 			rarity: "legendary",
 			role: "healing",
 			position: "rear",
@@ -96,8 +96,8 @@ const data = [
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["DMG Resist","Cooldown","CRIT%"],
 				requirement: "35.0% ATK (Toppings), 35.0% Cooldown"
@@ -123,9 +123,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: "35.0% ATK (Toppings)"
@@ -147,7 +147,7 @@ const data = [
 	]},
 	{
 			name: "Pom-Pom Dough Cookie",
-			icon: "img/card/pom-pom_dough.png",
+			icon: "img/card/pom-pom-dough.png",
 			rarity: "epic",
 			role: "support",
 			position: "middle",
@@ -159,9 +159,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png","img/core/support04.png"],
 				lines: ["4 Poison DMG"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
@@ -176,9 +176,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: "8.750% Cooldown"
@@ -186,7 +186,7 @@ const data = [
 	]},
 	{
 			name: "Venom Dough Cookie",
-			icon: "img/card/venom_dough.png",
+			icon: "img/card/venom-dough.png",
 			rarity: "super epic",
 			role: "bomber",
 			position: "rear",
@@ -240,7 +240,7 @@ const data = [
 	]},
 	{
 			name: "Mold Dough Cookie",
-			icon: "img/card/mold_dough.png",
+			icon: "img/card/mold-dough.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -294,7 +294,7 @@ const data = [
 	]},
 	{
 			name: "Dark Enchantress Cookie",
-			icon: "img/card/dark_enchantress.png",
+			icon: "img/card/dark-enchantress.png",
 			rarity: "witch",
 			role: "magic",
 			position: "middle",
@@ -362,7 +362,7 @@ const data = [
 	]},
 	{
 			name: "Millennial Tree Cookie",
-			icon: "img/card/millennial_tree.png",
+			icon: "img/card/millennial-tree.png",
 			rarity: "legendary",
 			role: "support",
 			position: "front",
@@ -420,9 +420,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -457,9 +457,9 @@ const data = [
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -472,11 +472,11 @@ const data = [
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
 					"img/tart/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["DMG Resist","Cooldown","CRIT%"],
 				requirement: ""
@@ -524,7 +524,7 @@ const data = [
 	]},
 	{
 			name: "Chess Choco Cookie",
-			icon: "img/card/chess_choco.png",
+			icon: "img/card/chess-choco.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "rear",
@@ -564,7 +564,7 @@ const data = [
 	]},
 	{
 			name: "Salt Cellar Cookie",
-			icon: "img/card/salt_cellar.png",
+			icon: "img/card/salt-cellar.png",
 			rarity: "epic",
 			role: "defense",
 			position: "front",
@@ -604,7 +604,7 @@ const data = [
 	]},
 	{
 			name: "White Lily Cookie (Awakened)",
-			icon: "img/card/white_lily_awakened.png",
+			icon: "img/card/white-lily-awakened.png",
 			rarity: "ancient",
 			role: "bomber",
 			position: "middle",
@@ -702,9 +702,9 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -716,9 +716,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -740,7 +740,7 @@ const data = [
 	]},
 	{
 			name: "Silent Salt Cookie",
-			icon: "img/card/silent_salt.png",
+			icon: "img/card/silent-salt.png",
 			rarity: "beast",
 			role: "ambush",
 			position: "front",
@@ -983,9 +983,9 @@ const data = [
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -1009,9 +1009,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -1157,9 +1157,9 @@ const data = [
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -1183,9 +1183,9 @@ const data = [
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -1196,7 +1196,7 @@ const data = [
 	]},
 	{
 			name: "Marshmallow Bunny Cookie",
-			icon: "img/card/marshmallow_bunny.png",
+			icon: "img/card/marshmallow-bunny.png",
 			rarity: "special",
 			role: "support",
 			position: "rear",
@@ -1211,10 +1211,10 @@ const data = [
 				toppingsImgs: [
 					"img/tart/candy.png",
 					"img/topping/candy.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Amplify Buff","Cooldown","CRIT%"],
 				requirement: "25.0% Amplify Buff"
@@ -1250,7 +1250,7 @@ const data = [
 	]},
 	{
 			name: "Cream Soda Cookie",
-			icon: "img/card/cream_soda.png",
+			icon: "img/card/cream-soda.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -1303,9 +1303,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -1344,7 +1344,7 @@ const data = [
 	]},
 	{
 			name: "Hollyberry Cookie (Awakened)",
-			icon: "img/card/hollyberry_awakened.png",
+			icon: "img/card/hollyberry-awakened.png",
 			rarity: "ancient",
 			role: "defense",
 			position: "front",
@@ -1438,7 +1438,7 @@ const data = [
 	]},
 	{
 			name: "Eternal Sugar Cookie",
-			icon: "img/card/eternal_sugar.png",
+			icon: "img/card/eternal-sugar.png",
 			rarity: "beast",
 			role: "bomber",
 			position: "middle",
@@ -1552,9 +1552,9 @@ const data = [
 					"img/tart/peanut.png",
 					"img/topping/peanut.png",
 					"img/topping/peanut.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["DMG Resist","Cooldown","HP","Amplify Buff"],
 				requirement: "8% Cooldown"
@@ -1566,9 +1566,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["CRIT%","ATK"],
 				requirement: ""
@@ -1577,9 +1577,9 @@ const data = [
 				beascuitImgs: ["img/base/bomber.png","img/core/bomber04.png"],
 				lines: ["4 Poison DMG"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
@@ -1604,7 +1604,7 @@ const data = [
 	]},
 	{
 			name: "Agar Agar Cookie",
-			icon: "img/card/agar_agar.png",
+			icon: "img/card/agar-agar.png",
 			rarity: "epic",
 			role: "ambush",
 			position: "middle",
@@ -1644,7 +1644,7 @@ const data = [
 	]},
 	{
 			name: "Fire Spirit Cookie",
-			icon: "img/card/fire_spirit.png",
+			icon: "img/card/fire-spirit.png",
 			rarity: "legendary",
 			role: "magic",
 			position: "rear",
@@ -1698,7 +1698,7 @@ const data = [
 	]},
 	{
 			name: "Wedding Cake Cookie",
-			icon: "img/card/wedding_cake.png",
+			icon: "img/card/wedding-cake.png",
 			rarity: "epic",
 			role: "magic",
 			position: "middle",
@@ -1714,9 +1714,9 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: "47.500% Cooldown"
@@ -1725,9 +1725,9 @@ const data = [
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -1738,7 +1738,7 @@ const data = [
 	]},
 	{
 			name: "Black Forest Cookie",
-			icon: "img/card/black_forest.png",
+			icon: "img/card/black-forest.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -1754,9 +1754,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["CRIT%","ATK","ATK SPD"],
 				requirement: "33.898% ATK SPD"
@@ -1765,9 +1765,9 @@ const data = [
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["2 ATK SPD","2 CRIT%"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
@@ -1782,9 +1782,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["CRIT%","ATK","ATK SPD"],
 				requirement: ""
@@ -1792,7 +1792,7 @@ const data = [
 	]},
 	{
 			name: "Black Sapphire Cookie",
-			icon: "img/card/black_sapphire.png",
+			icon: "img/card/black-sapphire.png",
 			rarity: "epic",
 			role: "support",
 			position: "middle",
@@ -1805,9 +1805,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png","img/core/support04.png"],
 				lines: ["4 Poison DMG"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
@@ -1822,9 +1822,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
@@ -1836,9 +1836,9 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
@@ -1846,7 +1846,7 @@ const data = [
 	]},
 	{
 			name: "Pure Vanilla Cookie (Awakened)",
-			icon: "img/card/pure_vanilla_awakened.png",
+			icon: "img/card/pure-vanilla-awakened.png",
 			rarity: "ancient",
 			role: "healing",
 			position: "rear",
@@ -1873,9 +1873,9 @@ const data = [
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -1886,7 +1886,7 @@ const data = [
 	]},
 	{
 			name: "Candy Apple Cookie",
-			icon: "img/card/candy_apple.png",
+			icon: "img/card/candy-apple.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "middle",
@@ -1899,9 +1899,9 @@ const data = [
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -1916,9 +1916,9 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["DMG Resist","Cooldown","ATK SPD","CRIT%"],
 				requirement: ""
@@ -1926,7 +1926,7 @@ const data = [
 	]},
 	{
 			name: "Shadow Milk Cookie",
-			icon: "img/card/shadow_milk.png",
+			icon: "img/card/shadow-milk.png",
 			rarity: "beast",
 			role: "magic",
 			position: "middle",
@@ -1953,12 +1953,12 @@ const data = [
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: "85.0% CRIT%"
@@ -1993,9 +1993,9 @@ const data = [
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -2034,7 +2034,7 @@ const data = [
 	]},
 	{
 			name: "Green Tea Mousse Cookie",
-			icon: "img/card/green_tea_mousse.png",
+			icon: "img/card/green-tea-mousse.png",
 			rarity: "epic",
 			role: "defense",
 			position: "front",
@@ -2074,7 +2074,7 @@ const data = [
 	]},
 	{
 			name: "Pudding à la Mode Cookie",
-			icon: "img/card/pudding_a_la_mode.png",
+			icon: "img/card/pudding-a-la-mode.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "rear",
@@ -2089,10 +2089,10 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK SPD"],
 				requirement: ""
@@ -2101,9 +2101,9 @@ const data = [
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -2114,7 +2114,7 @@ const data = [
 	]},
 	{
 			name: "Choco Drizzle Cookie",
-			icon: "img/card/choco_drizzle.png",
+			icon: "img/card/choco-drizzle.png",
 			rarity: "epic",
 			role: "ambush",
 			position: "middle",
@@ -2168,7 +2168,7 @@ const data = [
 	]},
 	{
 			name: "Red Osmanthus Cookie",
-			icon: "img/card/red_osmanthus.png",
+			icon: "img/card/red-osmanthus.png",
 			rarity: "epic",
 			role: "ranged",
 			position: "middle",
@@ -2184,9 +2184,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK SPD","CRIT%"],
 				requirement: ""
@@ -2198,9 +2198,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK SPD","CRIT%"],
 				requirement: ""
@@ -2208,7 +2208,7 @@ const data = [
 	]},
 	{
 			name: "Golden Osmanthus Cookie",
-			icon: "img/card/golden_osmanthus.png",
+			icon: "img/card/golden-osmanthus.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "middle",
@@ -2288,7 +2288,7 @@ const data = [
 	]},
 	{
 			name: "Smoked Cheese Cookie",
-			icon: "img/card/smoked_cheese.png",
+			icon: "img/card/smoked-cheese.png",
 			rarity: "epic",
 			role: "magic",
 			position: "rear",
@@ -2328,7 +2328,7 @@ const data = [
 	]},
 	{
 			name: "Golden Cheese Cookie (Awakened)",
-			icon: "img/card/golden_cheese_awakened.png",
+			icon: "img/card/golden-cheese-awakened.png",
 			rarity: "ancient",
 			role: "ranged",
 			position: "middle",
@@ -2382,7 +2382,7 @@ const data = [
 	]},
 	{
 			name: "Nutmeg Tiger Cookie",
-			icon: "img/card/nutmeg_tiger.png",
+			icon: "img/card/nutmeg-tiger.png",
 			rarity: "epic",
 			role: "support",
 			position: "rear",
@@ -2408,7 +2408,7 @@ const data = [
 	]},
 	{
 			name: "Burning Spice Cookie",
-			icon: "img/card/burning_spice.png",
+			icon: "img/card/burning-spice.png",
 			rarity: "beast",
 			role: "charge",
 			position: "front",
@@ -2448,7 +2448,7 @@ const data = [
 	]},
 	{
 			name: "Wind Archer Cookie",
-			icon: "img/card/wind_archer.png",
+			icon: "img/card/wind-archer.png",
 			rarity: "legendary",
 			role: "ranged",
 			position: "rear",
@@ -2516,7 +2516,7 @@ const data = [
 	]},
 	{
 			name: "Star Coral Cookie",
-			icon: "img/card/star_coral.png",
+			icon: "img/card/star-coral.png",
 			rarity: "epic",
 			role: "support",
 			position: "rear",
@@ -2529,9 +2529,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -2584,7 +2584,7 @@ const data = [
 	]},
 	{
 			name: "Cream Ferret Cookie",
-			icon: "img/card/cream_ferret.png",
+			icon: "img/card/cream-ferret.png",
 			rarity: "special",
 			role: "support",
 			position: "rear",
@@ -2597,9 +2597,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -2708,7 +2708,7 @@ const data = [
 	]},
 	{
 			name: "Peach Blossom Cookie",
-			icon: "img/card/peach_blossom.png",
+			icon: "img/card/peach-blossom.png",
 			rarity: "epic",
 			role: "support",
 			position: "middle",
@@ -2721,9 +2721,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -2762,7 +2762,7 @@ const data = [
 	]},
 	{
 			name: "Dark Cacao Cookie (Awakened)",
-			icon: "img/card/dark_cacao_awakened.png",
+			icon: "img/card/dark-cacao-awakened.png",
 			rarity: "ancient",
 			role: "charge",
 			position: "front",
@@ -2830,7 +2830,7 @@ const data = [
 	]},
 	{
 			name: "Cloud Haetae Cookie",
-			icon: "img/card/cloud_haetae.png",
+			icon: "img/card/cloud-haetae.png",
 			rarity: "epic",
 			role: "defense",
 			position: "front",
@@ -2870,7 +2870,7 @@ const data = [
 	]},
 	{
 			name: "Mystic Flour Cookie",
-			icon: "img/card/mystic_flour.png",
+			icon: "img/card/mystic-flour.png",
 			rarity: "beast",
 			role: "healing",
 			position: "rear",
@@ -2883,9 +2883,9 @@ const data = [
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -2923,12 +2923,12 @@ const data = [
 				beascuitImgs: ["img/base/charge.png","img/core/charge02.png"],
 				lines: ["4 Electric DMG"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -2940,9 +2940,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -2951,12 +2951,12 @@ const data = [
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -2968,9 +2968,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -2979,12 +2979,12 @@ const data = [
 				beascuitImgs: ["img/base/charge.png","img/core/charge02.png"],
 				lines: ["4 Electric DMG"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["DMG Resist","Cooldown","CRIT%"],
 				requirement: ""
@@ -2993,12 +2993,12 @@ const data = [
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 DMG Resist Bypass"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["DMG Resist","Cooldown","CRIT%"],
 				requirement: ""
@@ -3006,7 +3006,7 @@ const data = [
 	]},
 	{
 			name: "Street Urchin Cookie",
-			icon: "img/card/street_urchin.png",
+			icon: "img/card/street-urchin.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "middle",
@@ -3060,7 +3060,7 @@ const data = [
 	]},
 	{
 			name: "Caramel Choux Cookie",
-			icon: "img/card/caramel_choux.png",
+			icon: "img/card/caramel-choux.png",
 			rarity: "epic",
 			role: "support",
 			position: "rear",
@@ -3073,9 +3073,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -3114,7 +3114,7 @@ const data = [
 	]},
 	{
 			name: "Butter Roll Cookie",
-			icon: "img/card/butter_roll.png",
+			icon: "img/card/butter-roll.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -3198,9 +3198,9 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -3212,9 +3212,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -3222,7 +3222,7 @@ const data = [
 	]},
 	{
 			name: "Elder Faerie Cookie",
-			icon: "img/card/elder_faerie.png",
+			icon: "img/card/elder-faerie.png",
 			rarity: "super epic",
 			role: "defense",
 			position: "front",
@@ -3248,7 +3248,7 @@ const data = [
 	]},
 	{
 			name: "Mercurial Knight Cookie",
-			icon: "img/card/mercurial_knight.png",
+			icon: "img/card/mercurial-knight.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -3301,9 +3301,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -3342,7 +3342,7 @@ const data = [
 	]},
 	{
 			name: "White Lily Cookie",
-			icon: "img/card/white_lily.png",
+			icon: "img/card/white-lily.png",
 			rarity: "ancient",
 			role: "bomber",
 			position: "middle",
@@ -3454,9 +3454,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -3560,7 +3560,7 @@ const data = [
 	]},
 	{
 			name: "Crème Brûlée Cookie",
-			icon: "img/card/creme_brulee.png",
+			icon: "img/card/creme-brulee.png",
 			rarity: "epic",
 			role: "ranged",
 			position: "rear",
@@ -3589,7 +3589,7 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
@@ -3600,7 +3600,7 @@ const data = [
 	]},
 	{
 			name: "Icicle Yeti Cookie",
-			icon: "img/card/icicle_yeti.png",
+			icon: "img/card/icicle-yeti.png",
 			rarity: "special",
 			role: "healing",
 			position: "front",
@@ -3613,11 +3613,11 @@ const data = [
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
@@ -3627,12 +3627,12 @@ const data = [
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -3644,9 +3644,9 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -3657,9 +3657,9 @@ const data = [
 				toppingsImgs: [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
@@ -3788,7 +3788,7 @@ const data = [
 	]},
 	{
 			name: "Burnt Cheese Cookie",
-			icon: "img/card/burnt_cheese.png",
+			icon: "img/card/burnt-cheese.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -3842,7 +3842,7 @@ const data = [
 	]},
 	{
 			name: "Golden Cheese Cookie",
-			icon: "img/card/golden_cheese.png",
+			icon: "img/card/golden-cheese.png",
 			rarity: "ancient",
 			role: "ranged",
 			position: "middle",
@@ -3896,7 +3896,7 @@ const data = [
 	]},
 	{
 			name: "Frilled Jellyfish Cookie",
-			icon: "img/card/frilled_jellyfish.png",
+			icon: "img/card/frilled-jellyfish.png",
 			rarity: "epic",
 			role: "support",
 			position: "middle",
@@ -3936,7 +3936,7 @@ const data = [
 	]},
 	{
 			name: "Crimson Coral Cookie",
-			icon: "img/card/crimson_coral.png",
+			icon: "img/card/crimson-coral.png",
 			rarity: "super epic",
 			role: "defense",
 			position: "front",
@@ -3990,9 +3990,9 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -4031,7 +4031,7 @@ const data = [
 	]},
 	{
 			name: "Black Lemonade Cookie",
-			icon: "img/card/black_lemonade.png",
+			icon: "img/card/black-lemonade.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "middle",
@@ -4085,7 +4085,7 @@ const data = [
 	]},
 	{
 			name: "Shining Glitter Cookie",
-			icon: "img/card/shining_glitter.png",
+			icon: "img/card/shining-glitter.png",
 			rarity: "super epic",
 			role: "magic",
 			position: "middle",
@@ -4098,9 +4098,9 @@ const data = [
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -4115,9 +4115,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -4129,9 +4129,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -4152,9 +4152,9 @@ const data = [
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -4166,12 +4166,12 @@ const data = [
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 DMG Resist"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["DMG Resist","CRIT%","ATK"],
 				requirement: "5.0% CRIT% (Toppings)"
@@ -4192,12 +4192,12 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -4205,7 +4205,7 @@ const data = [
 	]},
 	{
 			name: "Tarte Tatin Cookie",
-			icon: "img/card/tarte_tatin.png",
+			icon: "img/card/tarte-tatin.png",
 			rarity: "epic",
 			role: "ranged",
 			position: "rear",
@@ -4259,7 +4259,7 @@ const data = [
 	]},
 	{
 			name: "Pitaya Dragon Cookie",
-			icon: "img/card/pitaya_dragon.png",
+			icon: "img/card/pitaya-dragon.png",
 			rarity: "dragon",
 			role: "charge",
 			position: "front",
@@ -4313,7 +4313,7 @@ const data = [
 	]},
 	{
 			name: "Royal Margarine Cookie",
-			icon: "img/card/royal_margarine.png",
+			icon: "img/card/royal-margarine.png",
 			rarity: "epic",
 			role: "ambush",
 			position: "middle",
@@ -4329,9 +4329,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -4343,9 +4343,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -4377,7 +4377,7 @@ const data = [
 				requirement: ""
 			},{
 				title: "PVE 2",
-				beascuitImgs: ["img/base/defense_tainted.png","img/core/defense04.png"],
+				beascuitImgs: ["img/base/defense-tainted.png","img/core/defense04.png"],
 				lines: ["20.0% Light DMG","3 ATK SPD"],
 				toppingsImgs: [
 					"img/tart/raspberry.png",
@@ -4421,7 +4421,7 @@ const data = [
 	]},
 	{
 			name: "Prune Juice Cookie",
-			icon: "img/card/prune_juice.png",
+			icon: "img/card/prune-juice.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "middle",
@@ -4437,37 +4437,37 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: "35.0% Cooldown"
 			},{
 				title: "Red Velvet Dragon 2",
-				beascuitImgs: ["img/base/bomber_tainted.png","img/core/bomber04.png"],
+				beascuitImgs: ["img/base/bomber-tainted.png","img/core/bomber04.png"],
 				lines: ["20.0% Poison DMG","3 Cooldown"],
 				toppingsImgs: [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: "35.0% Cooldown"
 			},{
 				title: "General",
-				beascuitImgs: ["img/base/bomber_tainted.png","img/core/bomber04.png"],
+				beascuitImgs: ["img/base/bomber-tainted.png","img/core/bomber04.png"],
 				lines: ["20.0% Poison DMG","3 Cooldown"],
 				toppingsImgs: [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
@@ -4476,12 +4476,12 @@ const data = [
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
@@ -4545,9 +4545,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
@@ -4569,7 +4569,7 @@ const data = [
 	]},
 	{
 			name: "Space Doughnut",
-			icon: "img/card/space_doughnut.png",
+			icon: "img/card/space-doughnut.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -4585,9 +4585,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK SPD"],
 				requirement: ""
@@ -4623,7 +4623,7 @@ const data = [
 	]},
 	{
 			name: "Blueberry Pie Cookie",
-			icon: "img/card/blueberry_pie.png",
+			icon: "img/card/blueberry-pie.png",
 			rarity: "epic",
 			role: "magic",
 			position: "middle",
@@ -4638,8 +4638,8 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
 				],
@@ -4652,10 +4652,10 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["ATK","CRIT%","ATK SPD"],
 				requirement: ""
@@ -4663,7 +4663,7 @@ const data = [
 	]},
 	{
 			name: "Milky Way Cookie",
-			icon: "img/card/milky_way.png",
+			icon: "img/card/milky-way.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -5053,7 +5053,7 @@ const data = [
 	]},
 	{
 			name: "Jung Kook Cookie",
-			icon: "img/card/jung_kook.png",
+			icon: "img/card/jung-kook.png",
 			rarity: "special",
 			role: "bts",
 			position: "rear",
@@ -5221,7 +5221,7 @@ const data = [
 	]},
 	{
 			name: "Candy Diver Cookie",
-			icon: "img/card/candy_diver.png",
+			icon: "img/card/candy-diver.png",
 			rarity: "epic",
 			role: "support",
 			position: "rear",
@@ -5261,7 +5261,7 @@ const data = [
 	]},
 	{
 			name: "Black Pearl Cookie",
-			icon: "img/card/black_pearl.png",
+			icon: "img/card/black-pearl.png",
 			rarity: "legendary",
 			role: "ambush",
 			position: "middle",
@@ -5343,7 +5343,7 @@ const data = [
 	]},
 	{
 			name: "Captain Caviar Cookie",
-			icon: "img/card/captain_caviar.png",
+			icon: "img/card/captain-caviar.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "middle",
@@ -5397,7 +5397,7 @@ const data = [
 	]},
 	{
 			name: "Cream Unicorn Cookie",
-			icon: "img/card/cream_unicorn.png",
+			icon: "img/card/cream-unicorn.png",
 			rarity: "epic",
 			role: "healing",
 			position: "rear",
@@ -5531,7 +5531,7 @@ const data = [
 	]},
 	{
 			name: "Crunchy Chip Cookie",
-			icon: "img/card/crunchy_chip.png",
+			icon: "img/card/crunchy-chip.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -5547,9 +5547,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -5561,9 +5561,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -5585,7 +5585,7 @@ const data = [
 	]},
 	{
 			name: "Clotted Cream Cookie",
-			icon: "img/card/clotted_cream.png",
+			icon: "img/card/clotted-cream.png",
 			rarity: "super epic",
 			role: "magic",
 			position: "middle",
@@ -5679,7 +5679,7 @@ const data = [
 	]},
 	{
 			name: "Cherry Blossom Cookie",
-			icon: "img/card/cherry_blossom.png",
+			icon: "img/card/cherry-blossom.png",
 			rarity: "epic",
 			role: "ambush",
 			position: "rear",
@@ -5719,7 +5719,7 @@ const data = [
 	]},
 	{
 			name: "Dark Cacao Cookie",
-			icon: "img/card/dark_cacao.png",
+			icon: "img/card/dark-cacao.png",
 			rarity: "ancient",
 			role: "charge",
 			position: "front",
@@ -5787,7 +5787,7 @@ const data = [
 	]},
 	{
 			name: "Caramel Arrow Cookie",
-			icon: "img/card/caramel_arrow.png",
+			icon: "img/card/caramel-arrow.png",
 			rarity: "epic",
 			role: "ranged",
 			position: "front",
@@ -5802,8 +5802,8 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
 				],
@@ -5816,8 +5816,8 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
 				],
@@ -5857,9 +5857,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -5871,9 +5871,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -5881,7 +5881,7 @@ const data = [
 	]},
 	{
 			name: "Tea Knight Cookie",
-			icon: "img/card/tea_knight.png",
+			icon: "img/card/tea-knight.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -6015,7 +6015,7 @@ const data = [
 	]},
 	{
 			name: "Frost Queen Cookie",
-			icon: "img/card/frost_queen.png",
+			icon: "img/card/frost-queen.png",
 			rarity: "legendary",
 			role: "magic",
 			position: "middle",
@@ -6109,7 +6109,7 @@ const data = [
 	]},
 	{
 			name: "Pumpkin Pie Cookie",
-			icon: "img/card/pumpkin_pie.png",
+			icon: "img/card/pumpkin-pie.png",
 			rarity: "epic",
 			role: "magic",
 			position: "middle",
@@ -6149,7 +6149,7 @@ const data = [
 	]},
 	{
 			name: "Twizzly Gummy Cookie",
-			icon: "img/card/twizzly_gummy.png",
+			icon: "img/card/twizzly-gummy.png",
 			rarity: "epic",
 			role: "ranged",
 			position: "rear",
@@ -6162,9 +6162,9 @@ const data = [
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -6178,10 +6178,10 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK SPD"],
 				requirement: ""
@@ -6201,15 +6201,15 @@ const data = [
 				requirement: ""
 			},{
 				title: "Living Abyss",
-				beascuitImgs: ["img/base/ranged_tainted.png","img/core/ranged02.png"],
+				beascuitImgs: ["img/base/ranged-tainted.png","img/core/ranged02.png"],
 				lines: ["20.0% Electricity DMG","3 Cooldown"],
 				toppingsImgs: [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK SPD"],
 				requirement: "41.797% Cooldown"
@@ -6217,7 +6217,7 @@ const data = [
 	]},
 	{
 			name: "Mala Sauce Cookie",
-			icon: "img/card/mala_sauce.png",
+			icon: "img/card/mala-sauce.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -6309,7 +6309,7 @@ const data = [
 	]},
 	{
 			name: "Moon Rabbit Cookie",
-			icon: "img/card/moon_rabbit.png",
+			icon: "img/card/moon-rabbit.png",
 			rarity: "epic",
 			role: "defense",
 			position: "front",
@@ -6581,7 +6581,7 @@ const data = [
 	]},
 	{
 			name: "Sorbet Shark Cookie",
-			icon: "img/card/sorbet_shark.png",
+			icon: "img/card/sorbet-shark.png",
 			rarity: "epic",
 			role: "ambush",
 			position: "middle",
@@ -6621,7 +6621,7 @@ const data = [
 	]},
 	{
 			name: "Squid Ink Cookie",
-			icon: "img/card/squid_ink.png",
+			icon: "img/card/squid-ink.png",
 			rarity: "epic",
 			role: "magic",
 			position: "middle",
@@ -6687,7 +6687,7 @@ const data = [
 	]},
 	{
 			name: "Sea Fairy Cookie",
-			icon: "img/card/sea_fairy.png",
+			icon: "img/card/sea-fairy.png",
 			rarity: "legendary",
 			role: "bomber",
 			position: "middle",
@@ -6717,9 +6717,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -6731,9 +6731,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -6889,7 +6889,7 @@ const data = [
 	]},
 	{
 			name: "Red Velvet Cookie",
-			icon: "img/card/red_velvet.png",
+			icon: "img/card/red-velvet.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -6944,8 +6944,8 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
 				],
@@ -6958,8 +6958,8 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
 				],
@@ -6983,7 +6983,7 @@ const data = [
 	]},
 	{
 			name: "Strawberry Crepe Cookie",
-			icon: "img/card/strawberry_crepe.png",
+			icon: "img/card/strawberry-crepe.png",
 			rarity: "epic",
 			role: "defense",
 			position: "front",
@@ -7037,7 +7037,7 @@ const data = [
 	]},
 	{
 			name: "Pure Vanilla Cookie",
-			icon: "img/card/pure_vanilla.png",
+			icon: "img/card/pure-vanilla.png",
 			rarity: "ancient",
 			role: "healing",
 			position: "rear",
@@ -7091,7 +7091,7 @@ const data = [
 	]},
 	{
 			name: "Black Raisin Cookie",
-			icon: "img/card/black_raisin.png",
+			icon: "img/card/black-raisin.png",
 			rarity: "epic",
 			role: "ambush",
 			position: "middle",
@@ -7107,9 +7107,9 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
@@ -7118,12 +7118,12 @@ const data = [
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
@@ -7135,9 +7135,9 @@ const data = [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["DMG Resist","Cooldown","CRIT%"],
 				requirement: ""
@@ -7171,7 +7171,7 @@ const data = [
 	]},
 	{
 			name: "Cream Puff Cookie",
-			icon: "img/card/cream_puff.png",
+			icon: "img/card/cream-puff.png",
 			rarity: "epic",
 			role: "support",
 			position: "rear",
@@ -7184,10 +7184,10 @@ const data = [
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
 				],
@@ -7202,8 +7202,8 @@ const data = [
 					"img/topping/peanut.png",
 					"img/topping/peanut.png",
 					"img/topping/peanut.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: "50.0% CRIT% (Start), 14.063% Cooldown, 1.267x Wind Archer's HP"
@@ -7345,7 +7345,7 @@ const data = [
 	]},
 	{
 			name: "Custard Cookie III",
-			icon: "img/card/custard_III.png",
+			icon: "img/card/custard-III.png",
 			rarity: "rare",
 			role: "healing",
 			position: "rear",
@@ -7629,7 +7629,7 @@ const data = [
 	]},
 	{
 			name: "Poison Mushroom Cookie",
-			icon: "img/card/poison_mushroom.png",
+			icon: "img/card/poison-mushroom.png",
 			rarity: "epic",
 			role: "bomber",
 			position: "middle",
@@ -7645,9 +7645,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -7659,9 +7659,9 @@ const data = [
 					"img/tart/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -7723,7 +7723,7 @@ const data = [
 	]},
 	{
 			name: "Purple Yam Cookie",
-			icon: "img/card/purple_yam.png",
+			icon: "img/card/purple-yam.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -7883,7 +7883,7 @@ const data = [
 	]},
 	{
 			name: "Chili Pepper Cookie",
-			icon: "img/card/chili_pepper.png",
+			icon: "img/card/chili-pepper.png",
 			rarity: "epic",
 			role: "ambush",
 			position: "middle",
@@ -7896,12 +7896,12 @@ const data = [
 				beascuitImgs: ["img/base/ambush.png","img/core/ambush03.png"],
 				lines: ["4 Fire DMG"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -7910,12 +7910,12 @@ const data = [
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
@@ -8032,9 +8032,9 @@ const data = [
 				beascuitImgs: ["img/base/healing.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
-					"img/tart/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
+					"img/tart/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png"
@@ -8073,7 +8073,7 @@ const data = [
 	]},
 	{
 			name: "Dark Choco Cookie",
-			icon: "img/card/dark_choco.png",
+			icon: "img/card/dark-choco.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
@@ -8301,7 +8301,7 @@ const data = [
 	]},
 	{
 			name: "Mint Choco Cookie",
-			icon: "img/card/mint_choco.png",
+			icon: "img/card/mint-choco.png",
 			rarity: "epic",
 			role: "support",
 			position: "rear",
@@ -8421,7 +8421,7 @@ const data = [
 	]},
 	{
 			name: "Tiger Lily Cookie",
-			icon: "img/card/tiger_lily.png",
+			icon: "img/card/tiger-lily.png",
 			rarity: "epic",
 			role: "ranged",
 			position: "rear",
@@ -8539,7 +8539,7 @@ const data = [
 	]},
 	{
 			name: "Snow Sugar Cookie",
-			icon: "img/card/snow_sugar.png",
+			icon: "img/card/snow-sugar.png",
 			rarity: "epic",
 			role: "magic",
 			position: "middle",
@@ -8876,10 +8876,10 @@ const data = [
 				toppingsImgs: [
 					"img/tart/caramel.png",
 					"img/topping/caramel.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png",
-					"img/topping/apple_jelly.png"
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
 				],
 				substats: ["ATK SPD","CRIT%"],
 				requirement: ""

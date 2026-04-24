@@ -8,9 +8,6 @@
 	--highlight: rgba(255,255,255,0.05);
 	--focus: rgba(255,255,255,0.25);
 	--text: #ffffff;
-	--warn1: #ff6666;
-	--warn2: #ff4040;
-	--warn3: rgba(255,64,64,0.05);
 }
 
 html, body, main, aside { height: 100%; }
@@ -156,6 +153,23 @@ nav {
 	background: var(--highlight);
 }
 
+.tags {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 5px;
+	margin-top: 10px;
+}
+
+.tag {
+	background: var(--dark1);
+	border: 1px solid var(--border);
+	border-radius: 5px;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	padding: 5px 10px;
+	font-size: 0.8rem;
+}
 
 .icon {
 	width: 20px;
@@ -178,7 +192,7 @@ nav {
 
 #clear {
 	background: var(--dark0);
-	border: 1px solid var(--warn1);
+	border: 1px solid #ff6666;
 	border-radius: 5px;
 	padding: 3px;
 	cursor: pointer;
@@ -187,17 +201,17 @@ nav {
 }
 
 #clear:hover {
-	background: var(--warn3);
-	border-color: var(--warn2);
-	color: var(--warn2);
+	background: rgba(255,64,64,0.05);
+	border-color: #ff4040;
+	color: #ff4040;
 }
 
 #clear .material-icons {
-	color: var(--warn1);
+	color: #ff6666;
 	transition: 0.1s;
 }
 #clear:hover .material-icons {
-	color: var(--warn2);
+	color: #ff4040;
 }
 
 

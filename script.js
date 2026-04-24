@@ -14,13 +14,73 @@ function renderGrid(list) {
 	});
 }
 
+function formatLabel(str) {
+  const specialCases = {
+    "life-sprouting": "Life-Sprouting",
+	"bts": "BTS"
+  };
+
+  if (specialCases[str]) return specialCases[str];
+
+  return str
+    .replace(/-/g, " ")
+    .replace(/\b\w/g, c => c.toUpperCase());
+}
+
 function showDetails(c) {
 	details.innerHTML = `
 	<h2>${c.name}</h2>
+	<div class="tags">
+	<span class="tag">
+		<div class="icon">
+			<img src="img/icon/${c.rarity.replace(/\s+/g, "-")}.png">
+		</div>
+		${formatLabel(c.rarity)}
+	</span>
+
+	<span class="tag">
+		<div class="icon">
+			<img src="img/icon/${c.role}.png">
+		</div>
+		${formatLabel(c.role)}
+	</span>
+
+	<span class="tag">
+		<div class="icon">
+			<img src="img/icon/${c.position}.png">
+		</div>
+		${formatLabel(c.position)}
+	</span>
+
+	${
+		(c.element && c.element.length)
+		? c.element.map(el => `
+			<span class="tag">
+				<div class="icon">
+					<img src="img/icon/${el}.png">
+				</div>
+				${formatLabel(el)}
+			</span>
+		`).join("")
+		: ""
+	}
+
+	${
+		(c.resonant && c.resonant.length)
+		? c.resonant.map(r => `
+			<span class="tag">
+				<div class="icon">
+					<img src="img/icon/${r}.png">
+				</div>
+				${formatLabel(r)}
+			</span>
+		`).join("")
+		: ""
+	}
+</div>
 	${c.builds.map(b => `
 		<div class="build">
 			<h3>${b.title}</h3>
-
 			<div class="gear">
 
 				${b.beascuitImgs?.length ? `
@@ -54,6 +114,8 @@ function showDetails(c) {
 	`).join("")}
 	`;
 }
+
+
 
 /*filter*/
 
