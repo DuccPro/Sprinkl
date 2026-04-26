@@ -338,7 +338,7 @@ aside h2, aside h3 { text-align: center; }
 	}
 	aside h2 { font-size: 1.17rem; }
 	body {
-		grid-template-rows: auto 1fr 311px;
+		grid-template-rows: auto 1fr 300px;
 	}
 }
 
