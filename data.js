@@ -85,7 +85,7 @@ const data = [
 			position: "rear",
 			element: ["light"],
 			resonant: ["life-energy"],
-			alias: ["sswan","ssc"],
+			alias: ["sswan cookie","sugswan cookie","ssc"],
 			builds: [
 			{
 				title: "PVP",
@@ -680,7 +680,7 @@ const data = [
 			position: "middle",
 			element: ["grass"],
 			resonant: ["blooming","frost-herbalist","crossed-fates"],
-			alias: ["awlc","awwlc","awkwlc","dbwlc","wlawk","wldb","wlcawk","wlcdb","awakened dawnbringer awk aw db white lily wlily willy wl wlc cookie awakened dawnbringer awk aw db"],
+			alias: ["awlc","awwlc","awkwlc","dbwlc","wlawk","wldb","wlcawk","wlcdb","awakened awk dawnbringer dbringer white lily wlily willy wlc cookie"],
 			builds: [
 			{
 				title: "PVP",
@@ -776,7 +776,7 @@ const data = [
 			position: "rear",
 			element: ["darkness"],
 			resonant: ["silent","lunar-eclipse"],
-			alias: [],
+			alias: ["coal"],
 			builds: [
 			{
 				title: "PVE",
@@ -844,7 +844,7 @@ const data = [
 			position: "front",
 			element: ["darkness","steel"],
 			resonant: ["silent","smithy","lunar-eclipse","crossed-fates"],
-			alias: ["ssalt","ssc"],
+			alias: ["ssalt","sisalt","silsalt","silensalt","ssc"],
 			builds: [
 			{
 				title: "PVP 1",
@@ -1412,7 +1412,7 @@ const data = [
 			position: "rear",
 			element: [],
 			resonant: ["fuzzy-wuzzy"],
-			alias: ["mbunny","marshbunny","mbc"],
+			alias: ["mbunny","marshbunny","mallowbunny","mbc"],
 			builds: [
 			{
 				title: "General",
@@ -1534,7 +1534,7 @@ const data = [
 			position: "rear",
 			element: [],
 			resonant: ["passionate","unison"],
-			alias: ["sfly","sfc"],
+			alias: [],
 			builds: [
 			{
 				title: "PVE",
@@ -1602,7 +1602,7 @@ const data = [
 			position: "front",
 			element: ["steel"],
 			resonant: ["draconic","passionate","smithy","crossed-fates"],
-			alias: ["ahbc","awhbc","awkhbc","hbawk","hbcawk","awakened aegis awk aw hollyberry hberry hb hbc cookie awakened aegis awk aw"],
+			alias: ["ahbc","awhbc","awkhbc","hbawk","hbcawk","awakened awk aegis hollyberry hberry hbc cookie"],
 			builds: [
 			{
 				title: "PVP",
@@ -1696,7 +1696,7 @@ const data = [
 			position: "middle",
 			element: ["poison"],
 			resonant: ["indolent","frost-herbalist","crossed-fates"],
-			alias: ["esugar","esc"],
+			alias: ["esugar","etsugar","esc"],
 			builds: [
 			{
 				title: "PVE 1",
@@ -1956,7 +1956,7 @@ const data = [
 			position: "middle",
 			element: [],
 			resonant: ["sacred-vow"],
-			alias: ["wcc"],
+			alias: ["wcake","wedcake","wcc"],
 			builds: [
 			{
 				title: "Living Abyss",
@@ -2010,7 +2010,7 @@ const data = [
 			position: "front",
 			element: [],
 			resonant: ["sacred-vow"],
-			alias: ["bfc"],
+			alias: ["bforest","bfc"],
 			builds: [
 			{
 				title: "Living Abyss 1",
@@ -2064,7 +2064,7 @@ const data = [
 			position: "middle",
 			element: ["poison"],
 			resonant: ["deceitful","frost-herbalist"],
-			alias: ["bsapph","bsc"],
+			alias: ["bsapph","blaphire","blapphire","bsc"],
 			builds: [
 			{
 				title: "General 1",
@@ -2118,7 +2118,7 @@ const data = [
 			position: "rear",
 			element: ["light"],
 			resonant: ["truthful","lunar-eclipse","crossed-fates"],
-			alias: ["apvc","awpvc","awkpvc","cpvc","pvawk","pvcawk","pvcc","awakened compassionate awk aw pure vanilla pvanilla pv pvc cookie awakened compassionate awk aw"],
+			alias: ["apvc","awpvc","awkpvc","cpvc","pvawk","pvcawk","pvcc","awakened awk compassionate pure vanilla pvanilla pvc cookie"],
 			builds: [
 			{
 				title: "PVP",
@@ -2198,7 +2198,7 @@ const data = [
 			position: "middle",
 			element: [],
 			resonant: ["deceitful","crossed-fates"],
-			alias: ["smilk","smc"],
+			alias: ["smilk","shmilk","shamilk","shadmilk","smc"],
 			builds: [
 			{
 				title: "PVP",
@@ -2454,7 +2454,7 @@ const data = [
 			position: "middle",
 			element: ["grass"],
 			resonant: ["fragrant","frost-herbalist"],
-			alias: [],
+			alias: ["red ozzy","red ozzie"],
 			builds: [
 			{
 				title: "General",
@@ -2494,7 +2494,7 @@ const data = [
 			position: "middle",
 			element: ["grass"],
 			resonant: ["fragrant","frost-herbalist"],
-			alias: [],
+			alias: ["golden ozzy","golden ozzie"],
 			builds: [
 			{
 				title: "General",
@@ -2602,7 +2602,7 @@ const data = [
 			position: "rear",
 			element: ["earth"],
 			resonant: ["radiant-cheese","lunar-eclipse"],
-			alias: ["scc"],
+			alias: ["scheese","smeese","scc"],
 			builds: [
 			{
 				title: "General",
@@ -2642,7 +2642,7 @@ const data = [
 			position: "middle",
 			element: ["earth"],
 			resonant: ["radiant-cheese","lunar-eclipse","crossed-fates"],
-			alias: ["agcc","awgcc","awkgcc","igcc","gcawk","gci","gccawk","gcci","awakened immortal awk aw golden cheese gcheese gc gcc awakened cookie immortal awk aw"],
+			alias: ["agcc","awgcc","awkgcc","igcc","gcawk","gci","gccawk","gcci","awakened awk immortal golden cheese gcheese gcc cookie"],
 			builds: [
 			{
 				title: "PVE",
@@ -2696,7 +2696,7 @@ const data = [
 			position: "rear",
 			element: ["fire"],
 			resonant: ["destructive","smithy"],
-			alias: ["ntiger","ntc"],
+			alias: ["ntiger","nuttiger","ntc"],
 			builds: [
 			{
 				title: "General",
@@ -2722,7 +2722,7 @@ const data = [
 			position: "front",
 			element: ["fire"],
 			resonant: ["destructive","smithy","crossed-fates"],
-			alias: ["bspice","bsc"],
+			alias: ["bspice","burnspice","bsc"],
 			builds: [
 			{
 				title: "General",
@@ -2898,7 +2898,7 @@ const data = [
 			position: "rear",
 			element: [],
 			resonant: [],
-			alias: ["cferret","cfc"],
+			alias: ["cferret","cfc","rat"],
 			builds: [
 			{
 				title: "PVE",
@@ -3076,7 +3076,7 @@ const data = [
 			position: "front",
 			element: ["darkness"],
 			resonant: ["gambit","heaven-splitter","lunar-eclipse","crossed-fates"],
-			alias: ["adcc","awdcc","awkdcc","dldcc","dcawk","dcdl","dccawk","dccdl","adcac","awdcac","awkdcac","dldcac","dcaawk","dcadl","dcacawk","dcacdl","awakened dragon lord awk aw dl dark cacao dcacao dca dcc dcac cookie awakened dragon lord awk aw dl"],
+			alias: ["adcc","awdcc","awkdcc","dldcc","dcawk","dcdl","dccawk","dccdl","adcac","awdcac","awkdcac","dldcac","dcaawk","dcadl","dcacawk","dcacdl","awakened awk dragon lord dlord dark cacao dcacao dccc dcac cookie"],
 			builds: [
 			{
 				title: "DPS",
@@ -3374,7 +3374,7 @@ const data = [
 			position: "rear",
 			element: [],
 			resonant: ["unison"],
-			alias: ["ccc"],
+			alias: ["cchoux","ccc"],
 			builds: [
 			{
 				title: "PVE",
@@ -3428,7 +3428,7 @@ const data = [
 			position: "front",
 			element: ["steel","chaos"],
 			resonant: ["looming-dark","smithy","heaven-splitter"],
-			alias: ["brc"],
+			alias: ["broll","butroll","brc"],
 			builds: [
 			{
 				title: "DPS",
@@ -3536,7 +3536,7 @@ const data = [
 			position: "front",
 			element: ["steel"],
 			resonant: ["smithy"],
-			alias: ["efaerie","efc"],
+			alias: ["efaerie","eldfaerie","efc"],
 			builds: [
 			{
 				title: "Tank",
@@ -3562,7 +3562,7 @@ const data = [
 			position: "front",
 			element: ["steel"],
 			resonant: ["verdigris","smithy"],
-			alias: ["mkc"],
+			alias: ["mknight","mkc"],
 			builds: [
 			{
 				title: "DPS",
@@ -3874,7 +3874,7 @@ const data = [
 			position: "rear",
 			element: ["light"],
 			resonant: ["truthful","lunar-eclipse"],
-			alias: ["creme brulee cookie","cbrulee","cbc"],
+			alias: ["creme brulee cookie","cbrulee","crulee","cbc"],
 			builds: [
 			{
 				title: "General",
@@ -3914,7 +3914,7 @@ const data = [
 			position: "front",
 			element: ["ice"],
 			resonant: ["frosted-crystal","frost-herbalist"],
-			alias: ["iyc"],
+			alias: ["iyeti","iyc"],
 			builds: [
 			{
 				title: "General 1",
@@ -4102,7 +4102,7 @@ const data = [
 			position: "front",
 			element: ["earth"],
 			resonant: ["radiant-cheese","lunar-eclipse"],
-			alias: ["bcc"],
+			alias: ["bcheese","bcc"],
 			builds: [
 			{
 				title: "General 1",
@@ -4291,7 +4291,7 @@ const data = [
 			position: "rear",
 			element: ["water"],
 			resonant: ["sea-salt","smithy"],
-			alias: ["pmint","ppmc","pmc"],
+			alias: ["pmint","pepmint","pmc","ppmc"],
 			builds: [
 			{
 				title: "PVE",
@@ -4399,7 +4399,7 @@ const data = [
 			position: "middle",
 			element: ["electricity"],
 			resonant: ["tropical-rock","heaven-splitter"],
-			alias: ["sglitter","sgc"],
+			alias: ["sglitter","shitter","sgc"],
 			builds: [
 			{
 				title: "General",
@@ -4573,7 +4573,7 @@ const data = [
 			position: "front",
 			element: ["fire"],
 			resonant: ["draconic","smithy"],
-			alias: ["pdragon","pita dragon","pdc"],
+			alias: ["pdragon","pidragon","pdc"],
 			builds: [
 			{
 				title: "PVE",
@@ -4883,7 +4883,7 @@ const data = [
 			position: "front",
 			element: [],
 			resonant: ["moonkissed"],
-			alias: ["space donut","sdoughnut","sdonut","sd"],
+			alias: ["space donut","sdoughnut","sdonut","sponut","sd"],
 			builds: [
 			{
 				title: "DPS",
@@ -4937,7 +4937,7 @@ const data = [
 			position: "middle",
 			element: ["electricity"],
 			resonant: ["moonkissed","heaven-splitter"],
-			alias: ["bpie","bpc","bbpc"],
+			alias: ["bpie","bluepie","bbpc"],
 			builds: [
 			{
 				title: "General 1",
@@ -5111,7 +5111,7 @@ const data = [
 			position: "front",
 			element: ["ice"],
 			resonant: ["frosted-crystal","frost-herbalist"],
-			alias: ["pcc","pcone"],
+			alias: ["pcone","pcc"],
 			builds: [
 			{
 				title: "DPS",
@@ -5259,7 +5259,7 @@ const data = [
 			position: "middle",
 			element: [],
 			resonant: [],
-			alias: ["macaroon"],
+			alias: ["macaroon cookie"],
 			builds: [
 			{
 				title: "General",
@@ -5278,14 +5278,14 @@ const data = [
 			}
 	]},
 	{
-			name: "Schwarzwälder Cookie",
+			name: "Schwarzwälder",
 			icon: "img/card/schwarzwalder.png",
 			rarity: "epic",
 			role: "charge",
 			position: "front",
 			element: ["steel","chaos"],
 			resonant: ["sacred-vow","looming-dark","smithy","heaven-splitter"],
-			alias: ["schwarzwalder","choco werehound brute","charles"],
+			alias: ["schwarzwalder","choco werehound brute"],
 			builds: [
 			{
 				title: "DPS",
@@ -5657,7 +5657,7 @@ const data = [
 			position: "middle",
 			element: ["water"],
 			resonant: ["smithy"],
-			alias: ["ccaviar","capt caviar","ccc"],
+			alias: ["ccaviar","ccc"],
 			builds: [
 			{
 				title: "PVE",
@@ -5711,7 +5711,7 @@ const data = [
 			position: "rear",
 			element: ["fire"],
 			resonant: ["smithy"],
-			alias: ["cunicorn","cuc"],
+			alias: ["cunicorn","crunicorn","cuc"],
 			builds: [
 			{
 				title: "PVE",
@@ -5765,7 +5765,7 @@ const data = [
 			position: "front",
 			element: ["light"],
 			resonant: ["truthful","sacred-vow","lunar-eclipse"],
-			alias: ["finance"],
+			alias: ["finance cookie"],
 			builds: [
 			{
 				title: "General 1",
@@ -5845,7 +5845,7 @@ const data = [
 			position: "front",
 			element: ["darkness"],
 			resonant: ["lunar-eclipse"],
-			alias: ["oreo cookie","cchip","ccc"],
+			alias: ["cchip","ccc"],
 			builds: [
 			{
 				title: "DPS",
@@ -5899,7 +5899,7 @@ const data = [
 			position: "middle",
 			element: ["light"],
 			resonant: ["lunar-eclipse"],
-			alias: ["ccream","clotcream","ccc"],
+			alias: ["ccream","ccc"],
 			builds: [
 			{
 				title: "PVE",
@@ -6033,7 +6033,7 @@ const data = [
 			position: "front",
 			element: ["darkness","electricity"],
 			resonant: ["heaven-splitter","lunar-eclipse","crossed-fates"],
-			alias: ["dcacao","dcc","dcac"],
+			alias: ["dcacao","dccc","dcac"],
 			builds: [
 			{
 				title: "DPS",
@@ -6101,7 +6101,7 @@ const data = [
 			position: "front",
 			element: ["darkness"],
 			resonant: ["sacred-vow","lunar-eclipse","unison"],
-			alias: ["carrow","cara arrow","cac"],
+			alias: ["carrow","cac"],
 			builds: [
 			{
 				title: "General",
@@ -6195,7 +6195,7 @@ const data = [
 			position: "front",
 			element: ["steel"],
 			resonant: ["smithy"],
-			alias: ["tktc"],
+			alias: ["tknight","tktc"],
 			builds: [
 			{
 				title: "PVP",
@@ -6329,7 +6329,7 @@ const data = [
 			position: "middle",
 			element: ["ice"],
 			resonant: ["frosted-crystal","ancient-root","frost-herbalist"],
-			alias: ["elsa cookie","fqueen","fqc"],
+			alias: ["fqueen","fqc","elsa cookie"],
 			builds: [
 			{
 				title: "DPS",
@@ -6423,7 +6423,7 @@ const data = [
 			position: "middle",
 			element: ["darkness"],
 			resonant: ["lunar-eclipse"],
-			alias: ["ppc"],
+			alias: ["ppie","pkpc","ppc"],
 			builds: [
 			{
 				title: "General",
@@ -6531,7 +6531,7 @@ const data = [
 			position: "front",
 			element: ["fire"],
 			resonant: ["smithy"],
-			alias: ["msc"],
+			alias: ["msauce","msc"],
 			builds: [
 			{
 				title: "General",
@@ -7297,7 +7297,7 @@ const data = [
 			position: "front",
 			element: [],
 			resonant: [],
-			alias: ["screpe","scc"],
+			alias: ["screpe","strepe","scc"],
 			builds: [
 			{
 				title: "Tank 1",
@@ -7943,7 +7943,7 @@ const data = [
 			position: "middle",
 			element: ["poison","chaos"],
 			resonant: ["looming-dark","frost-herbalist","heaven-splitter"],
-			alias: ["pmushroom","shroomie","pmc"],
+			alias: ["pmushroom","pmc","shroomie cookie"],
 			builds: [
 			{
 				title: "General",
