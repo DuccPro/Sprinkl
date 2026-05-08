@@ -20,6 +20,15 @@
 	<button id="filter-toggle" class="filter-btn"> <span class="material-icons"> filter_list </span> </button>
 	<button id="clear"> <span class="material-icons"> close </span> </button>
 	<div id="filters">
+		<div class="dropdown" data-key="sort">
+			<div class="dropdown-header"> Sort </div>
+			<div class="dropdown-menu">
+				<div class="option" data-value="release"> Release </div>
+				<div class="option" data-value="az"> A-Z </div>
+				<div class="option" data-value="rarity"> Rarity </div>
+				<div class="option" data-value="cookie-order"> Order </div>
+			</div>
+		</div>
 		<div class="dropdown" data-key="rarity">
 			<div class="dropdown-header"> Rarity </div>
 			<div class="dropdown-menu">
@@ -83,6 +92,7 @@
 			<div class="dropdown-header"> Resonant </div>
 			<div class="dropdown-menu">
 				<div class="option" data-value=""> All </div>
+					<div class="option" data-value="chrono"> <div class="icon"> <img src="img/icon/chrono.png"> </div> Chrono </div>
 					<div class="option" data-value="unison"> <div class="icon"> <img src="img/icon/unison.png"> </div> Unison </div>
 					<div class="option" data-value="life-energy"> <div class="icon"> <img src="img/icon/life-energy.png"> </div> Life Energy </div>
 					<div class="option" data-value="crossed-fates"> <div class="icon"> <img src="img/icon/crossed-fates.png"> </div> Crossed Fates </div>

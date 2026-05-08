@@ -352,7 +352,7 @@ aside h2, aside h3 { text-align: center; }
 	border-radius: 5px;
 }
 
-@media (max-width: 1450px) {
+@media (max-width: 1460px) {
 	.filter-btn {
 		display: flex;
 	}
