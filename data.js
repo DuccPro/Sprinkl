@@ -52,7 +52,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -78,7 +78,21 @@ const data = [
 			alias: ["tkeeper","tkc"],
 			builds: [
 			{
-				title: "PVP",
+				title: "PVP 1",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 DMG Resist Bypass"],
+				toppingsImgs: [
+					"img/tart/raspberry.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["DMG Resist","Cooldown","ATK"],
+				requirement: ""
+			},{
+				title: "PVP 2",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 DMG Resist Bypass"],
 				toppingsImgs: [
@@ -86,8 +100,8 @@ const data = [
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/raspberry.png",
-					"img/topping/raspberry.png"
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
 				],
 				substats: ["DMG Resist","Cooldown","ATK"],
 				requirement: ""
@@ -106,7 +120,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -305,7 +319,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: "8.750% Cooldown"
 			},{
-				title: "Red Velvet Dragon (Noob) 1",
+				title: "Red Velvet Dragon (Element-less) 1",
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -319,7 +333,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "Red Velvet Dragon (Noob) 2",
+				title: "Red Velvet Dragon (Element-less) 2",
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -373,20 +387,6 @@ const data = [
 				substats: ["DMG Resist","Cooldown","Amplify Buff"],
 				requirement: ""
 			},{
-				title: "PVP 3",
-				beascuitImgs: ["img/base/bomber.png"],
-				lines: ["4 DMG Resist Bypass"],
-				toppingsImgs: [
-					"img/tart/candy.png",
-					"img/topping/candy.png",
-					"img/topping/peanut.png",
-					"img/topping/peanut.png",
-					"img/topping/peanut.png",
-					"img/topping/peanut.png"
-				],
-				substats: ["DMG Resist","Cooldown","Amplify Buff"],
-				requirement: ""
-			},{
 				title: "PVE",
 				beascuitImgs: ["img/base/bomber.png","img/core/bomber07.png"],
 				lines: ["4 Chaos DMG"],
@@ -400,7 +400,21 @@ const data = [
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
-			}
+			},{
+				title: "PVE (Element-less)",
+				beascuitImgs: ["img/base/bomber.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/candy.png",
+					"img/topping/candy.png",
+					"img/topping/caramel.png",
+					"img/topping/caramel.png",
+					"img/topping/apple-jelly.png",
+					"img/topping/apple-jelly.png"
+				],
+				substats: ["Cooldown","CRIT%","Amplify Buff"],
+				requirement: ""
+			},
 	]},
 	{
 			name: "Mold Dough Cookie",
@@ -427,7 +441,7 @@ const data = [
 				substats: ["Cooldown","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -452,7 +466,7 @@ const data = [
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
 				],
-				substats: ["Cooldown","ATK","ATK SPD"],
+				substats: ["DMG Resist","ATK","ATK SPD"],
 				requirement: ""
 			}
 	]},
@@ -501,7 +515,7 @@ const data = [
 				toppingsImgs: [
 					"img/tart/chocolate.png",
 					"img/topping/chocolate.png",
-					"img/topping/chocolate.png",
+					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png",
 					"img/topping/raspberry.png"
@@ -509,7 +523,7 @@ const data = [
 				substats: [],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -725,7 +739,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -861,7 +875,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -929,7 +943,7 @@ const data = [
 				substats: [""],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -1121,7 +1135,7 @@ const data = [
 				substats: ["ATK","CRIT%","ATK SPD"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -1161,7 +1175,7 @@ const data = [
 				substats: ["ATK"],
 				requirement: "23.438% Cooldown"
 			},{
-				title: "Machine-God (Noob)",
+				title: "Machine-God (Element-less)",
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -1189,7 +1203,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -1647,7 +1661,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -1769,7 +1783,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/defense.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -1877,7 +1891,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -2055,7 +2069,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -2567,7 +2581,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -2607,7 +2621,7 @@ const data = [
 				substats: ["Cooldown","ATK SPD","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -2755,7 +2769,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -2795,7 +2809,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -2875,7 +2889,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT","ATK SPD"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -2915,7 +2929,7 @@ const data = [
 				substats: ["CRIT%","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -3229,7 +3243,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3391,7 +3405,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE 1 (Noob)",
+				title: "PVE 1 (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3405,7 +3419,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE 2 (Noob)",
+				title: "PVE 2 (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3433,7 +3447,7 @@ const data = [
 				substats: ["DMG Resist","Cooldown","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVP (Noob)",
+				title: "PVP (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 DMG Resist Bypass"],
 				toppingsImgs: [
@@ -3473,7 +3487,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3581,7 +3595,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3649,7 +3663,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3715,7 +3729,7 @@ const data = [
 				substats: ["ATK","CRIT%","ATK SPD"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -3823,7 +3837,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -3891,7 +3905,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -4175,7 +4189,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -4309,7 +4323,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -4363,7 +4377,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: "35.0% Cooldown"
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -4566,7 +4580,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -4672,7 +4686,7 @@ const data = [
 				substats: ["Cooldown","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -4726,7 +4740,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: "12.0% ATK (Toppings)"
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -4780,7 +4794,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -4916,7 +4930,7 @@ const data = [
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -4956,7 +4970,7 @@ const data = [
 				substats: ["Cooldown","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -5292,7 +5306,7 @@ const data = [
 				substats: ["ATK","CRIT%","ATK SPD"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/bomber.png","img/core/bomber05.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -5346,7 +5360,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -5466,7 +5480,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -5716,7 +5730,7 @@ const data = [
 				substats: ["Cooldown","ATK SPD"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -5756,7 +5770,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -5838,7 +5852,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6026,7 +6040,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6080,7 +6094,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6174,7 +6188,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6214,7 +6228,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6282,7 +6296,7 @@ const data = [
 				substats: ["ATK","CRIT%","ATK SPD"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -6336,7 +6350,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6390,7 +6404,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6510,7 +6524,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6604,7 +6618,7 @@ const data = [
 				substats: ["Cooldown","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6712,7 +6726,7 @@ const data = [
 				substats: ["Cooldown","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6914,7 +6928,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/defense.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -6954,7 +6968,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7076,7 +7090,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7116,7 +7130,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7196,7 +7210,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7250,7 +7264,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7290,7 +7304,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7344,7 +7358,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7438,7 +7452,7 @@ const data = [
 				substats: ["CRIT%","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "PVE DPS (Noob)",
+				title: "PVE DPS (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -7600,7 +7614,7 @@ const data = [
 				substats: ["Cooldown","CRIT%","ATK"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7720,7 +7734,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7814,7 +7828,7 @@ const data = [
 				substats: ["Cooldown","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/ranged.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -7922,7 +7936,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "PVE DPS (Noob)",
+				title: "PVE DPS (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -8044,7 +8058,7 @@ const data = [
 				substats: ["ATK","CRIT%","ATK SPD"],
 				requirement: ""
 			},{
-				title: "PVE DPS (Noob)",
+				title: "PVE DPS (Element-less)",
 				beascuitImgs: ["img/base/defense.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -8138,7 +8152,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/bomber.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -8232,7 +8246,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -8326,7 +8340,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/support.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -8392,7 +8406,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/ambush.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -8446,7 +8460,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/defense.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -8582,7 +8596,7 @@ const data = [
 				substats: ["Cooldown","ATK SPD","CRIT%"],
 				requirement: ""
 			},{
-				title: "DPS (Noob)",
+				title: "DPS (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -8836,7 +8850,7 @@ const data = [
 				substats: ["Cooldown","ATK","ATK SPD"],
 				requirement: ""
 			},{
-				title: "PVE (Noob)",
+				title: "PVE (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 ATK SPD"],
 				toppingsImgs: [
@@ -9048,7 +9062,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -9114,7 +9128,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/magic.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
@@ -9154,7 +9168,7 @@ const data = [
 				substats: ["Cooldown","ATK","CRIT%"],
 				requirement: ""
 			},{
-				title: "General (Noob)",
+				title: "General (Element-less)",
 				beascuitImgs: ["img/base/charge.png"],
 				lines: ["4 Cooldown"],
 				toppingsImgs: [
