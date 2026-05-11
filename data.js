@@ -11,7 +11,7 @@ const data = [
 			builds: [
 			{
 				title: "PVP 1",
-				beascuitImgs: ["img/base/ambush.png","img/core/ambush03.png"],
+				beascuitImgs: ["img/base/ambush.png","img/core/ambush02.png"],
 				lines: ["4 Dark DMG"],
 				toppingsImgs: [
 					"img/tart/raspberry.png",
@@ -2232,7 +2232,7 @@ const data = [
 				requirement: ""
 			},{
 				title: "General 2",
-				beascuitImgs: ["img/base/support04.png","img/core/support04.png"],
+				beascuitImgs: ["img/base/support.png","img/core/support04.png"],
 				lines: ["4 Poison DMG"],
 				toppingsImgs: [
 					"img/tart/raspberry.png",
@@ -2246,7 +2246,7 @@ const data = [
 				requirement: ""
 			},{
 				title: "General 3",
-				beascuitImgs: ["img/base/support04.png","img/core/support04.png"],
+				beascuitImgs: ["img/base/support.png","img/core/support04.png"],
 				lines: ["4 Poison DMG"],
 				toppingsImgs: [
 					"img/tart/chocolate.png",
@@ -2781,6 +2781,20 @@ const data = [
 					"img/topping/raspberry.png"
 				],
 				substats: ["Cooldown","ATK","CRIT%"],
+				requirement: ""
+			},{
+				title: "Charm",
+				beascuitImgs: ["img/base/magic.png"],
+				lines: ["4 Cooldown"],
+				toppingsImgs: [
+					"img/tart/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png",
+					"img/topping/chocolate.png"
+				],
+				substats: ["Cooldown","ATK SPD"],
 				requirement: ""
 			}
 	]},
@@ -7601,7 +7615,7 @@ const data = [
 			builds: [
 			{
 				title: "PVE",
-				beascuitImgs: ["img/base/ambush.png","img/core/ambush03.png"],
+				beascuitImgs: ["img/base/ambush.png","img/core/ambush02.png"],
 				lines: ["4 Dark DMG"],
 				toppingsImgs: [
 					"img/tart/chocolate.png",

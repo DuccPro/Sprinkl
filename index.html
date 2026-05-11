@@ -11,24 +11,12 @@
 <body>
 
 <nav>
-	<div id="brand">
-		<img src="img/icon/logo.png">
-		<h1> Sprinkl </h1>
-		<div id="tooltip"> Discord: @duccpro <br> Twitter: @Duccpro <br> Youtube: @DuccPro </div>
-	</div>
+	<img src="img/icon/logo.png" id="logo">
+	<h1> Sprinkl </h1>
 	<input id="search" placeholder="Search...">
-	<button id="filter-toggle" class="filter-btn"> <span class="material-icons"> filter_list </span> </button>
 	<button id="clear"> <span class="material-icons"> close </span> </button>
+	<button id="filter-toggle" class="filter-btn"> <span class="material-icons"> filter_list </span> </button>
 	<div id="filters">
-		<div class="dropdown" data-key="sort">
-			<div class="dropdown-header"> Sort </div>
-			<div class="dropdown-menu">
-				<div class="option" data-value="release"> Release </div>
-				<div class="option" data-value="az"> A-Z </div>
-				<div class="option" data-value="rarity"> Rarity </div>
-				<div class="option" data-value="cookie-order"> Order </div>
-			</div>
-		</div>
 		<div class="dropdown" data-key="rarity">
 			<div class="dropdown-header"> Rarity </div>
 			<div class="dropdown-menu">
@@ -92,46 +80,143 @@
 			<div class="dropdown-header"> Resonant </div>
 			<div class="dropdown-menu">
 				<div class="option" data-value=""> All </div>
-					<div class="option" data-value="chrono"> <div class="icon"> <img src="img/icon/chrono.png"> </div> Chrono </div>
-					<div class="option" data-value="unison"> <div class="icon"> <img src="img/icon/unison.png"> </div> Unison </div>
-					<div class="option" data-value="life-energy"> <div class="icon"> <img src="img/icon/life-energy.png"> </div> Life Energy </div>
-					<div class="option" data-value="crossed-fates"> <div class="icon"> <img src="img/icon/crossed-fates.png"> </div> Crossed Fates </div>
-					<div class="option" data-value="lunar-eclipse"> <div class="icon"> <img src="img/icon/lunar-eclipse.png"> </div> Lunar Eclipse </div>
-					<div class="option" data-value="heaven-splitter"> <div class="icon"> <img src="img/icon/heaven-splitter.png"> </div> Heaven Splitter </div>
-					<div class="option" data-value="frost-herbalist"> <div class="icon"> <img src="img/icon/frost-herbalist.png"> </div> Frost Herbalist </div>
-					<div class="option" data-value="smithy"> <div class="icon"> <img src="img/icon/smithy.png"> </div> Smithy </div>
-					<div class="option" data-value="looming-dark"> <div class="icon"> <img src="img/icon/looming-dark.png"> </div> Looming Dark </div>
-					<div class="option" data-value="ancient-root"> <div class="icon"> <img src="img/icon/ancient-root.png"> </div> Ancient Root </div>
-					<div class="option" data-value="verdigris"> <div class="icon"> <img src="img/icon/verdigris.png"> </div> Verdigris </div>
-					<div class="option" data-value="gambit"> <div class="icon"> <img src="img/icon/gambit.png"> </div> Gambit </div>
-					<div class="option" data-value="blooming"> <div class="icon"> <img src="img/icon/blooming.png"> </div> Blooming </div>
-					<div class="option" data-value="silent"> <div class="icon"> <img src="img/icon/silent.png"> </div> Silent </div>
-					<div class="option" data-value="destined"> <div class="icon"> <img src="img/icon/destined.png"> </div> Destined </div>
-					<div class="option" data-value="seafarer"> <div class="icon"> <img src="img/icon/seafarer.png"> </div> Seafarer </div>
-					<div class="option" data-value="fuzzy-wuzzy"> <div class="icon"> <img src="img/icon/fuzzy-wuzzy.png"> </div> Fuzzy Wuzzy </div>
-					<div class="option" data-value="passionate"> <div class="icon"> <img src="img/icon/passionate.png"> </div> Passionate </div>
-					<div class="option" data-value="indolent"> <div class="icon"> <img src="img/icon/indolent.png"> </div> Indolent </div>
-					<div class="option" data-value="flaming"> <div class="icon"> <img src="img/icon/flaming.png"> </div> Flaming </div>
-					<div class="option" data-value="sacred-vow"> <div class="icon"> <img src="img/icon/sacred-vow.png"> </div> Sacred Vow </div>
-					<div class="option" data-value="truthful"> <div class="icon"> <img src="img/icon/truthful.png"> </div> Truthful </div>
-					<div class="option" data-value="deceitful"> <div class="icon"> <img src="img/icon/deceitful.png"> </div> Deceitful </div>
-					<div class="option" data-value="iris-gem"> <div class="icon"> <img src="img/icon/iris-gem.png"> </div> Iris Gem </div>
-					<div class="option" data-value="fragrant"> <div class="icon"> <img src="img/icon/fragrant.png"> </div> Fragrant </div>
-					<div class="option" data-value="destructive"> <div class="icon"> <img src="img/icon/destructive.png"> </div> Destructive </div>
-					<div class="option" data-value="life-sprouting"> <div class="icon"> <img src="img/icon/life-sprouting.png"> </div> Life-Sprouting </div>
-					<div class="option" data-value="frosted-crystal"> <div class="icon"> <img src="img/icon/frosted-crystal.png"> </div> Frosted Crystal </div>
-					<div class="option" data-value="radiant-cheese"> <div class="icon"> <img src="img/icon/radiant-cheese.png"> </div> Radiant Cheese </div>
-					<div class="option" data-value="sea-salt"> <div class="icon"> <img src="img/icon/sea-salt.png"> </div> Sea Salt </div>
-					<div class="option" data-value="tropical-rock"> <div class="icon"> <img src="img/icon/tropical-rock.png"> </div> Tropical Rock </div>
-					<div class="option" data-value="draconic"> <div class="icon"> <img src="img/icon/draconic.png"> </div> Draconic </div>
-					<div class="option" data-value="trio"> <div class="icon"> <img src="img/icon/trio.png"> </div> Trio </div>
-					<div class="option" data-value="moonkissed"> <div class="icon"> <img src="img/icon/moonkissed.png"> </div> Moonkissed </div>
+				<div class="option" data-value="chrono"> <div class="icon"> <img src="img/icon/chrono.png"> </div> Chrono </div>
+				<div class="option" data-value="unison"> <div class="icon"> <img src="img/icon/unison.png"> </div> Unison </div>
+				<div class="option" data-value="life-energy"> <div class="icon"> <img src="img/icon/life-energy.png"> </div> Life Energy </div>
+				<div class="option" data-value="crossed-fates"> <div class="icon"> <img src="img/icon/crossed-fates.png"> </div> Crossed Fates </div>
+				<div class="option" data-value="lunar-eclipse"> <div class="icon"> <img src="img/icon/lunar-eclipse.png"> </div> Lunar Eclipse </div>
+				<div class="option" data-value="heaven-splitter"> <div class="icon"> <img src="img/icon/heaven-splitter.png"> </div> Heaven Splitter </div>
+				<div class="option" data-value="frost-herbalist"> <div class="icon"> <img src="img/icon/frost-herbalist.png"> </div> Frost Herbalist </div>
+				<div class="option" data-value="smithy"> <div class="icon"> <img src="img/icon/smithy.png"> </div> Smithy </div>
+				<div class="option" data-value="looming-dark"> <div class="icon"> <img src="img/icon/looming-dark.png"> </div> Looming Dark </div>
+				<div class="option" data-value="ancient-root"> <div class="icon"> <img src="img/icon/ancient-root.png"> </div> Ancient Root </div>
+				<div class="option" data-value="verdigris"> <div class="icon"> <img src="img/icon/verdigris.png"> </div> Verdigris </div>
+				<div class="option" data-value="gambit"> <div class="icon"> <img src="img/icon/gambit.png"> </div> Gambit </div>
+				<div class="option" data-value="blooming"> <div class="icon"> <img src="img/icon/blooming.png"> </div> Blooming </div>
+				<div class="option" data-value="silent"> <div class="icon"> <img src="img/icon/silent.png"> </div> Silent </div>
+				<div class="option" data-value="destined"> <div class="icon"> <img src="img/icon/destined.png"> </div> Destined </div>
+				<div class="option" data-value="seafarer"> <div class="icon"> <img src="img/icon/seafarer.png"> </div> Seafarer </div>
+				<div class="option" data-value="fuzzy-wuzzy"> <div class="icon"> <img src="img/icon/fuzzy-wuzzy.png"> </div> Fuzzy Wuzzy </div>
+				<div class="option" data-value="passionate"> <div class="icon"> <img src="img/icon/passionate.png"> </div> Passionate </div>
+				<div class="option" data-value="indolent"> <div class="icon"> <img src="img/icon/indolent.png"> </div> Indolent </div>
+				<div class="option" data-value="flaming"> <div class="icon"> <img src="img/icon/flaming.png"> </div> Flaming </div>
+				<div class="option" data-value="sacred-vow"> <div class="icon"> <img src="img/icon/sacred-vow.png"> </div> Sacred Vow </div>
+				<div class="option" data-value="truthful"> <div class="icon"> <img src="img/icon/truthful.png"> </div> Truthful </div>
+				<div class="option" data-value="deceitful"> <div class="icon"> <img src="img/icon/deceitful.png"> </div> Deceitful </div>
+				<div class="option" data-value="iris-gem"> <div class="icon"> <img src="img/icon/iris-gem.png"> </div> Iris Gem </div>
+				<div class="option" data-value="fragrant"> <div class="icon"> <img src="img/icon/fragrant.png"> </div> Fragrant </div>
+				<div class="option" data-value="destructive"> <div class="icon"> <img src="img/icon/destructive.png"> </div> Destructive </div>
+				<div class="option" data-value="life-sprouting"> <div class="icon"> <img src="img/icon/life-sprouting.png"> </div> Life-Sprouting </div>
+				<div class="option" data-value="frosted-crystal"> <div class="icon"> <img src="img/icon/frosted-crystal.png"> </div> Frosted Crystal </div>
+				<div class="option" data-value="radiant-cheese"> <div class="icon"> <img src="img/icon/radiant-cheese.png"> </div> Radiant Cheese </div>
+				<div class="option" data-value="sea-salt"> <div class="icon"> <img src="img/icon/sea-salt.png"> </div> Sea Salt </div>
+				<div class="option" data-value="tropical-rock"> <div class="icon"> <img src="img/icon/tropical-rock.png"> </div> Tropical Rock </div>
+				<div class="option" data-value="draconic"> <div class="icon"> <img src="img/icon/draconic.png"> </div> Draconic </div>
+				<div class="option" data-value="trio"> <div class="icon"> <img src="img/icon/trio.png"> </div> Trio </div>
+				<div class="option" data-value="moonkissed"> <div class="icon"> <img src="img/icon/moonkissed.png"> </div> Moonkissed </div>
 			</div>
 		</div>
+	</div>
+	<button id="settings-btn"> <span class="material-icons"> settings </span> </button>
+	<div id="settings-menu">
+		<p>Sort</p>
+		<div class="settings-options" id="sort-options">
+			<button
+				type="button"
+				class="settings-option sort-option active"
+				data-sort="release">
+				Release
+			</button>
+			<button
+				type="button"
+				class="settings-option sort-option"
+				data-sort="az">
+				A-Z
+			</button>
+			<button
+				type="button"
+				class="settings-option sort-option"
+				data-sort="rarity">
+				Rarity
+			</button>
+			<button
+				type="button"
+				class="settings-option sort-option"
+				data-sort="cookie-order">
+				Order
+			</button>
+		</div>
+		<p>Theme</p>
+		<div class="settings-options" id="theme-options">
+			<button
+				type="button"
+				class="settings-option theme-option"
+				data-theme="cream">
+				Cream
+			</button>
+			<button
+				type="button"
+				class="settings-option theme-option"
+				data-theme="grain">
+				Grain
+			</button>
+			<button
+				type="button"
+				class="settings-option theme-option"
+				data-theme="choco">
+				Choco
+			</button>
+			<button
+				type="button"
+				class="settings-option theme-option"
+				data-theme="sprinkle">
+				Sprinkle
+			</button>
+			<button
+				type="button"
+				class="settings-option theme-option"
+				data-theme="milk">
+				Milk
+			</button>
+			<button
+				type="button"
+				class="settings-option theme-option"
+				data-theme="berry">
+				Berry
+			</button>
+			<button
+				type="button"
+				class="settings-option theme-option active"
+				data-theme="salt">
+				Salt
+			</button>
+			<button
+				type="button"
+				class="settings-option theme-option"
+				data-theme="sugar">
+				Sugar
+			</button>
+			<button
+				type="button"
+				class="settings-option theme-option"
+				data-theme="vanilla">
+				Vanilla
+			</button>
+		</div>
+		<label class="setting-row">
+			<input type="checkbox" id="awakened-toggle" checked>
+			<span> Awakened Cookies Only </span>
+		</label>
+		<p> 
+			Discord: @duccpro <br>
+			Twitter: @Duccpro <br>
+			Youtube: @DuccPro
+		</p>
 	</div>
 </nav>
 
 <main id="grid"> </main>
+
 <aside>
 	<div id="details"> </div>
 </aside>
