@@ -79,6 +79,17 @@ function formatLabel(str) {
 		.replace(/\b\w/g, c => c.toUpperCase());
 }
 
+/* SLUG */
+
+function slugify(str) {
+
+	return str
+		.toLowerCase()
+		.replace(/\(awakened\)/g, "awakened")
+		.replace(/[^a-z0-9]+/g, "-")
+		.replace(/^-|-$/g, "");
+}
+
 /* GRID */
 
 function renderGrid(list) {
@@ -99,6 +110,9 @@ function renderGrid(list) {
 			});
 
 			img.classList.add("selected");
+
+			location.hash =
+				slugify(c.name);
 
 			showDetails(c);
 		};
@@ -832,8 +846,46 @@ document.addEventListener("click", (e) => {
 	}
 });
 
+/* HASH LOAD */
+
+function loadFromHash() {
+
+	const hash =
+		location.hash.slice(1);
+
+	if (!hash)
+		return;
+
+	const cookie =
+		data.find(c =>
+			slugify(c.name) === hash
+		);
+
+	if (!cookie)
+		return;
+
+	showDetails(cookie);
+
+	const imgs =
+		document.querySelectorAll("main img");
+
+	const index =
+		data.indexOf(cookie);
+
+	if (imgs[index]) {
+		imgs[index].classList.add("selected");
+	}
+}
+
+window.addEventListener(
+	"hashchange",
+	loadFromHash
+);
+
 /* INIT */
 
 renderActiveStates();
 
 filter();
+
+loadFromHash();
