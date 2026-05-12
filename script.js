@@ -866,14 +866,22 @@ function loadFromHash() {
 
 	showDetails(cookie);
 
+	document
+		.querySelectorAll("main img")
+		.forEach(i =>
+			i.classList.remove("selected")
+		);
+
 	const imgs =
-		document.querySelectorAll("main img");
+		[...document.querySelectorAll("main img")];
 
-	const index =
-		data.indexOf(cookie);
+	const selectedImg =
+		imgs.find(img =>
+			img.src.includes(cookie.icon)
+		);
 
-	if (imgs[index]) {
-		imgs[index].classList.add("selected");
+	if (selectedImg) {
+		selectedImg.classList.add("selected");
 	}
 }
 
